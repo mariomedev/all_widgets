@@ -13,6 +13,7 @@ class AboutListTileWidget extends StatelessWidget {
       ),
       body: WidgetWithCodeView(
         filePath: 'lib/presentation/widgets/aboutlisttile_widget.dart',
+        codeLinkPrefix: 'https://www.youtube.com/watch?v=psh54hThTN4&list=PL82uaKJraAILRBFE1XhCyfvu-Fclc6vv1&index=3',
         labelBackgroundColor: Colors.greenAccent,
         child: AboutListTileView(),
       ),

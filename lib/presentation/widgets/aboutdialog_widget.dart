@@ -13,6 +13,7 @@ class AboutDialogWidget extends StatelessWidget {
       ),
       body: WidgetWithCodeView(
         filePath: 'lib/presentation/widgets/aboutdialog_widget.dart',
+        codeLinkPrefix: 'https://www.youtube.com/watch?v=DccbE5LZryE&list=PL82uaKJraAILRBFE1XhCyfvu-Fclc6vv1&index=2',
         labelBackgroundColor: Colors.greenAccent,
         
         child: AboutDialogView(),

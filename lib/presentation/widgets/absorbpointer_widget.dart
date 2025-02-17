@@ -13,6 +13,7 @@ class AbsorbPointerWidget extends StatelessWidget {
       ),
       body: WidgetWithCodeView(
         filePath: 'lib/presentation/widgets/absorbpointer_widget.dart',
+        codeLinkPrefix: 'https://www.youtube.com/watch?v=LEmg9YVZUOk&list=PL82uaKJraAILRBFE1XhCyfvu-Fclc6vv1&index=4',
         labelBackgroundColor: Colors.greenAccent,
         child: AbsorbPointerView(),
       ),
@@ -31,8 +32,7 @@ class AbsorbPointerView extends StatelessWidget {
           width: 100,
           height: 300,
           child: ElevatedButton(
-            onPressed: () {
-            },
+            onPressed: () {},
             child: Text('Button'),
           ),
         ),
@@ -41,8 +41,7 @@ class AbsorbPointerView extends StatelessWidget {
             width: 300,
             height: 100,
             child: ElevatedButton(
-              onPressed: () {
-              },
+              onPressed: () {},
               child: Text('Button'),
             ),
           ),
