@@ -1,17 +1,22 @@
-import 'package:all_widgets/presentation/widgets/aboutdialog_widget.dart';
 import 'package:go_router/go_router.dart';
-import 'package:all_widgets/presentation/screens/screens.dart';
+
+import '../../presentation/screens/screens.dart';
+import '../../presentation/widgets/widgets.dart';
 
 final routes = GoRouter(
   initialLocation: '/',
   routes: [
     GoRoute(
-      path: '/', 
+      path: '/',
       builder: (context, state) => HomeScreen(),
-      ),
+    ),
     GoRoute(
-      path: '/about_dialog', 
+      path: '/about_dialog',
       builder: (context, state) => AboutDialogWidget(),
-      ),
+    ),
+    GoRoute(
+      path: '/about_list_tile',
+      builder: (context, state) => AboutListTileWidget(),
+    ),
   ],
 );

@@ -17,4 +17,10 @@ final List<WidgetBody> widgets = [
         'Sirve para mostrar un dialogo con información sobre la aplicación.',
     route: '/about_dialog',
   ),
+  WidgetBody(
+    title: 'Flutter AboutListTile Widget',
+    description:
+        'Sirve para mostrar un dialogo con información sobre la aplicación.',
+    route: '/about_list_tile',
+  ),
 ];
