@@ -23,4 +23,10 @@ final List<WidgetBody> widgets = [
         'Sirve para mostrar un dialogo con información sobre la aplicación.',
     route: '/about_list_tile',
   ),
+  WidgetBody(
+    title: 'Flutter AbsorbPointer Widget',
+    description:
+        'Sirve para deshabilitar la interacción con un widget y sus hijos.',
+    route: '/absorb_pointer',
+  ),
 ];

@@ -18,5 +18,9 @@ final routes = GoRouter(
       path: '/about_list_tile',
       builder: (context, state) => AboutListTileWidget(),
     ),
+    GoRoute(
+      path: '/absorb_pointer',
+      builder: (context, state) => AbsorbPointerWidget(),
+    ),
   ],
 );
