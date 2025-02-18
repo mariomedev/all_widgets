@@ -47,4 +47,10 @@ final List<WidgetBody> widgets = [
         'Sirve para alinear un widget en la pantalla con animación.',
     route: '/animated_align',
   ),
+  WidgetBody(
+    title: 'Flutter AnimatedBuilder Widget',
+    description:
+        'Sirve para construir un widget con animación.',
+    route: '/animated_builder',
+  ),
 ];

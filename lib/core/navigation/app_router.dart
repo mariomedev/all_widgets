@@ -34,5 +34,9 @@ final routes = GoRouter(
       path: '/animated_align',
       builder: (context, state) => AnimatedAlignWidget(),
     ),
+    GoRoute(
+      path: '/animated_builder',
+      builder: (context, state) => AnimatedBuilderWidget(),
+    ),
   ],
 );
