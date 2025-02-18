@@ -8,7 +8,7 @@ class AlertDialogWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('About Dialog'),
+        title: Text('Alert Dialog Widget'),
         centerTitle: true,
       ),
       body: WidgetWithCodeView(
