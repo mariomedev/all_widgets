@@ -38,5 +38,9 @@ final routes = GoRouter(
       path: '/animated_builder',
       builder: (context, state) => AnimatedBuilderWidget(),
     ),
+    GoRoute(
+      path: '/animated_container',
+      builder: (context, state) => AnimatedContainerWidget(),
+    ),
   ],
 );

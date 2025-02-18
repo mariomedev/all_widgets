@@ -53,4 +53,10 @@ final List<WidgetBody> widgets = [
         'Sirve para construir un widget con animación.',
     route: '/animated_builder',
   ),
+  WidgetBody(
+    title: 'Flutter AnimatedContainer Widget',
+    description:
+        'Sirve para construir un contenedor con animación.',
+    route: '/animated_container',
+  ),
 ];
