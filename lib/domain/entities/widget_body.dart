@@ -35,4 +35,10 @@ final List<WidgetBody> widgets = [
         'Sirve para mostrar un dialogo con información sobre la aplicación.',
     route: '/alert_dialog',
   ),
+  WidgetBody(
+    title: 'Flutter Aling Widget',
+    description:
+        'Sirve para alinear un widget en la pantalla.',
+    route: '/aling',
+  ),
 ];

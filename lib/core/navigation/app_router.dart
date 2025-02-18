@@ -26,5 +26,9 @@ final routes = GoRouter(
       path: '/alert_dialog',
       builder: (context, state) => AlertDialogWidget(),
     ),
+    GoRoute(
+      path: '/aling',
+      builder: (context, state) => AlingWidget(),
+    ),
   ],
 );
