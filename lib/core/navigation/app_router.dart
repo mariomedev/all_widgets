@@ -22,5 +22,9 @@ final routes = GoRouter(
       path: '/absorb_pointer',
       builder: (context, state) => AbsorbPointerWidget(),
     ),
+    GoRoute(
+      path: '/alert_dialog',
+      builder: (context, state) => AlertDialogWidget(),
+    ),
   ],
 );

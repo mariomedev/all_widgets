@@ -29,4 +29,10 @@ final List<WidgetBody> widgets = [
         'Sirve para deshabilitar la interacción con un widget y sus hijos.',
     route: '/absorb_pointer',
   ),
+  WidgetBody(
+    title: 'Flutter AlertDialog Widget',
+    description:
+        'Sirve para mostrar un dialogo con información sobre la aplicación.',
+    route: '/alert_dialog',
+  ),
 ];
