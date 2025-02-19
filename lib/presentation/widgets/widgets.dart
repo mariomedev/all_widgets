@@ -13,3 +13,4 @@ export 'animatedlist_widget.dart';
 export 'animatedmodalbarrier_widget.dart';
 export 'animatedopacity_widget.dart';
 export 'animatedpadding_widget.dart';
+export 'animatedphysicalmodel_widget.dart';

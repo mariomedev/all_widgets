@@ -98,4 +98,10 @@ final List<WidgetBody> widgets = [
         'Sirve para animar los cambios en el padding de un widget.',
     route: '/animated_padding',
   ),
+  WidgetBody(
+    title: 'Flutter AnimatedPhysicalModel Widget',
+    description:
+        'Sirve para animar los cambios en las propiedades físicas de un widget, como la elevación, el color y la forma.',
+    route: '/animated_physical_model',
+  ),
 ];

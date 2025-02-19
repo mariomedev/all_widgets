@@ -66,5 +66,9 @@ final routes = GoRouter(
       path: '/animated_padding',
       builder: (context, state) => AnimatedPaddingWidget(),
     ),
+    GoRoute(
+      path: '/animated_physical_model',
+      builder: (context, state) => AnimatedPhysicalModelWidget(),
+    ),
   ],
 );
