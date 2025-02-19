@@ -43,8 +43,8 @@ final routes = GoRouter(
       builder: (context, state) => AnimatedContainerWidget(),
     ),
     GoRoute(
-      path: '/animated_cross_fade',
-      builder: (context, state) => AnimatedCrossFadeWidget(),
+      path: '/animated_default_text_style',
+      builder: (context, state) => AnimatedDefaultTextStyleWidget(),
     ),
   ],
 );

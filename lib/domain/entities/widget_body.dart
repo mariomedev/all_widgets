@@ -62,4 +62,10 @@ final List<WidgetBody> widgets = [
         'permitiendo cambiar visualmente entre ellos de manera fluida.',
     route: '/animated_cross_fade',
   ),
+  WidgetBody(
+    title: 'Flutter AnimatedDefaultTextStyle Widget',
+    description:
+        'Sirve para animar los cambios en el estilo de texto predeterminado de sus hijos.',
+    route: '/animated_default_text_style',
+  ),
 ];
