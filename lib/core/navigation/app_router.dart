@@ -50,5 +50,9 @@ final routes = GoRouter(
       path: '/animated_icon',
       builder: (context, state) => AnimatedIconWidget(),
     ),
+    GoRoute(
+      path: '/animated_list',
+      builder: (context, state) => AnimatedListWidget(),
+    ),
   ],
 );

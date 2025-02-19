@@ -74,4 +74,10 @@ final List<WidgetBody> widgets = [
         'Sirve para animar un icono entre dos estados visuales diferentes.',
     route: '/animated_icon',
   ),
+  WidgetBody(
+    title: 'Flutter AnimatedList Widget',
+    description:
+        'Sirve para crear una lista que puede animar la inserción y eliminación de elementos.',
+    route: '/animated_list',
+  ),
 ];

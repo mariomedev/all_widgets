@@ -9,3 +9,4 @@ export 'animatedcontainer_widget.dart';
 export 'animatedcrossfade_widget.dart';
 export 'animateddefaulttextstyle_widget.dart';
 export 'animatedicon_widget.dart';
+export 'animatedlist_widget.dart';
