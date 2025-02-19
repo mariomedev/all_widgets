@@ -68,4 +68,10 @@ final List<WidgetBody> widgets = [
         'Sirve para animar los cambios en el estilo de texto predeterminado de sus hijos.',
     route: '/animated_default_text_style',
   ),
+  WidgetBody(
+    title: 'Flutter AnimatedIcon Widget',
+    description:
+        'Sirve para animar un icono entre dos estados visuales diferentes.',
+    route: '/animated_icon',
+  ),
 ];

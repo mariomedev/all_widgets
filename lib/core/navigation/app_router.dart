@@ -46,5 +46,9 @@ final routes = GoRouter(
       path: '/animated_default_text_style',
       builder: (context, state) => AnimatedDefaultTextStyleWidget(),
     ),
+    GoRoute(
+      path: '/animated_icon',
+      builder: (context, state) => AnimatedIconWidget(),
+    ),
   ],
 );
