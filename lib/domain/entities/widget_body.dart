@@ -86,4 +86,10 @@ final List<WidgetBody> widgets = [
         'Sirve para crear una barrera modal animada que bloquea la interacción con los widgets detrás de ella.',
     route: '/animated_modal_barrier',
   ),
+  WidgetBody(
+    title: 'Flutter AnimatedOpacity Widget',
+    description:
+        'Sirve para animar los cambios en la opacidad de un widget.',
+    route: '/animated_opacity',
+  ),
 ];

@@ -58,5 +58,9 @@ final routes = GoRouter(
       path: '/animated_modal_barrier',
       builder: (context, state) => AnimatedModalBarrierWidget(),
     ),
+    GoRoute(
+      path: '/animated_opacity',
+      builder: (context, state) => AnimatedOpacityWidget(),
+    ),
   ],
 );

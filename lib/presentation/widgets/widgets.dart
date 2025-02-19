@@ -11,3 +11,4 @@ export 'animateddefaulttextstyle_widget.dart';
 export 'animatedicon_widget.dart';
 export 'animatedlist_widget.dart';
 export 'animatedmodalbarrier_widget.dart';
+export 'animatedopacity_widget.dart';
