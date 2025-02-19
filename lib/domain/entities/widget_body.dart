@@ -80,4 +80,10 @@ final List<WidgetBody> widgets = [
         'Sirve para crear una lista que puede animar la inserción y eliminación de elementos.',
     route: '/animated_list',
   ),
+  WidgetBody(
+    title: 'Flutter AnimatedModalBarrier Widget',
+    description:
+        'Sirve para crear una barrera modal animada que bloquea la interacción con los widgets detrás de ella.',
+    route: '/animated_modal_barrier',
+  ),
 ];

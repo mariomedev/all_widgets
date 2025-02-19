@@ -10,3 +10,4 @@ export 'animatedcrossfade_widget.dart';
 export 'animateddefaulttextstyle_widget.dart';
 export 'animatedicon_widget.dart';
 export 'animatedlist_widget.dart';
+export 'animatedmodalbarrier_widget.dart';
