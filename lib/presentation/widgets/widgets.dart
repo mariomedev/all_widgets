@@ -6,3 +6,4 @@ export 'aling_widget.dart';
 export 'animatedalign_widget.dart';
 export 'animatedbuilder_widget.dart';
 export 'animatedcontainer_widget.dart';
+export 'animatedcrossfade_widget.dart';

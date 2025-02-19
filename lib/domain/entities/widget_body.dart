@@ -37,26 +37,29 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter Aling Widget',
-    description:
-        'Sirve para alinear un widget en la pantalla.',
+    description: 'Sirve para alinear un widget en la pantalla.',
     route: '/aling',
   ),
   WidgetBody(
     title: 'Flutter AnimatedAlign Widget',
-    description:
-        'Sirve para alinear un widget en la pantalla con animación.',
+    description: 'Sirve para alinear un widget en la pantalla con animación.',
     route: '/animated_align',
   ),
   WidgetBody(
     title: 'Flutter AnimatedBuilder Widget',
-    description:
-        'Sirve para construir un widget con animación.',
+    description: 'Sirve para construir un widget con animación.',
     route: '/animated_builder',
   ),
   WidgetBody(
     title: 'Flutter AnimatedContainer Widget',
-    description:
-        'Sirve para construir un contenedor con animación.',
+    description: 'Sirve para construir un contenedor con animación.',
     route: '/animated_container',
+  ),
+  WidgetBody(
+    title: 'Flutter AnimatedCrossFade Widget',
+    description:
+        'Sirve para realizar una transición suave de fade entre dos widgets, '
+        'permitiendo cambiar visualmente entre ellos de manera fluida.',
+    route: '/animated_cross_fade',
   ),
 ];

@@ -42,5 +42,9 @@ final routes = GoRouter(
       path: '/animated_container',
       builder: (context, state) => AnimatedContainerWidget(),
     ),
+    GoRoute(
+      path: '/animated_cross_fade',
+      builder: (context, state) => AnimatedCrossFadeWidget(),
+    ),
   ],
 );
