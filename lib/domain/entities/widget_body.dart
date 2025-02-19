@@ -92,4 +92,10 @@ final List<WidgetBody> widgets = [
         'Sirve para animar los cambios en la opacidad de un widget.',
     route: '/animated_opacity',
   ),
+  WidgetBody(
+    title: 'Flutter AnimatedPadding Widget',
+    description:
+        'Sirve para animar los cambios en el padding de un widget.',
+    route: '/animated_padding',
+  ),
 ];

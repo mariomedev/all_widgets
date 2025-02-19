@@ -62,5 +62,9 @@ final routes = GoRouter(
       path: '/animated_opacity',
       builder: (context, state) => AnimatedOpacityWidget(),
     ),
+    GoRoute(
+      path: '/animated_padding',
+      builder: (context, state) => AnimatedPaddingWidget(),
+    ),
   ],
 );
