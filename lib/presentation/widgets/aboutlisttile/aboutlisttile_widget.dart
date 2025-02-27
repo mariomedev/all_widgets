@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+
 import 'package:widget_with_codeview/widget_with_codeview.dart';
+
+import 'aboutlisttile_code.dart';
 
 class AboutListTileWidget extends StatelessWidget {
   const AboutListTileWidget({super.key});
@@ -12,29 +15,12 @@ class AboutListTileWidget extends StatelessWidget {
         centerTitle: true,
       ),
       body: WidgetWithCodeView(
-        filePath: 'lib/presentation/widgets/aboutlisttile_widget.dart',
+        filePath: 'lib/presentation/widgets/aboutlisttile/aboutlisttile_code.dart',
         codeLinkPrefix: 'https://www.youtube.com/watch?v=psh54hThTN4&list=PL82uaKJraAILRBFE1XhCyfvu-Fclc6vv1&index=3',
         labelBackgroundColor: Colors.greenAccent,
-        child: AboutListTileView(),
+        child: AboutListTileCode(),
       ),
     );
   }
 }
 
-class AboutListTileView extends StatelessWidget {
-  const AboutListTileView({super.key});
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: AboutListTile(
-        icon: FlutterLogo(),
-        applicationName: 'Flutter Demo',
-        applicationVersion: '1.0.0',
-        applicationLegalese: '© 2025 Flutter Demo',
-        aboutBoxChildren: [
-          Text('This is a simple About Dialog'),
-        ],
-      ),
-    );
-  }
-}

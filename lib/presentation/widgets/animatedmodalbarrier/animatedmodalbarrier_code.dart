@@ -1,33 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:widget_with_codeview/widget_with_codeview.dart';
 
-class AnimatedModalBarrierWidget extends StatelessWidget {
-  const AnimatedModalBarrierWidget({super.key});
+class AnimatedModalBarrierCode extends StatefulWidget {
+  const AnimatedModalBarrierCode({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('AnimatedModalBarrier Widget'),
-        centerTitle: true,
-      ),
-      body: WidgetWithCodeView(
-        filePath: 'lib/presentation/widgets/animatedmodalbarrier_widget.dart',
-        codeLinkPrefix: '',
-        labelBackgroundColor: Colors.greenAccent,
-        child: _AnimatedModalBarrierView(),
-      ),
-    );
-  }
+  State<AnimatedModalBarrierCode> createState() =>
+      _AnimatedModalBarrierCodeState();
 }
 
-class _AnimatedModalBarrierView extends StatefulWidget {
-  @override
-  State<_AnimatedModalBarrierView> createState() =>
-      _AnimatedModalBarrierViewState();
-}
-
-class _AnimatedModalBarrierViewState extends State<_AnimatedModalBarrierView>
+class _AnimatedModalBarrierCodeState extends State<AnimatedModalBarrierCode>
     with TickerProviderStateMixin {
   bool isPressed = false;
   late Widget animatedModalBarrier;

@@ -43,6 +43,10 @@ final routes = GoRouter(
       builder: (context, state) => AnimatedContainerWidget(),
     ),
     GoRoute(
+      path: '/animated_cross_fade',
+      builder: (context, state) => AnimatedCrossFadeWidget(),
+    ),
+    GoRoute(
       path: '/animated_default_text_style',
       builder: (context, state) => AnimatedDefaultTextStyleWidget(),
     ),
@@ -70,9 +74,9 @@ final routes = GoRouter(
       path: '/animated_physical_model',
       builder: (context, state) => AnimatedPhysicalModelWidget(),
     ),
-    GoRoute(
+    /* GoRoute(
       path: '/animated_positioned',
       builder: (context, state) => AnimatedPositionedWidget(),
-    ),
+    ), */
   ],
 );

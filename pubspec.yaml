@@ -21,5 +21,20 @@ flutter:
   uses-material-design: true
   
   assets:
-    - lib/presentation/widgets/
+    - lib/presentation/widgets/aboutdialog/
+    - lib/presentation/widgets/aboutlisttile/
+    - lib/presentation/widgets/absorbpointer/
+    - lib/presentation/widgets/alertdialog/
+    - lib/presentation/widgets/aling/
+    - lib/presentation/widgets/animatedalign/
+    - lib/presentation/widgets/animatedbuilder/
+    - lib/presentation/widgets/animatedcontainer/
+    - lib/presentation/widgets/animatedcrossfade/
+    - lib/presentation/widgets/animateddefaulttextstyle/
+    - lib/presentation/widgets/animatedicon/
+    - lib/presentation/widgets/animatedlist/
+    - lib/presentation/widgets/animatedmodalbarrier/
+    - lib/presentation/widgets/animatedopacity/
+    - lib/presentation/widgets/animatedpadding/
+    - lib/presentation/widgets/animatedphysicalmodel/
 

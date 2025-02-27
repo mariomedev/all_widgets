@@ -1,32 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:widget_with_codeview/widget_with_codeview.dart';
 
-class AnimatedListWidget extends StatelessWidget {
-  const AnimatedListWidget({super.key});
+class AnimatedListCode extends StatefulWidget {
+  const AnimatedListCode({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('AnimatedList Widget'),
-        centerTitle: true,
-      ),
-      body: WidgetWithCodeView(
-        filePath: 'lib/presentation/widgets/animatedlist_widget.dart',
-        codeLinkPrefix: 'https://youtu.be/koLFVJS8EOA?si=PXI7NB-otTeRf1Ui',
-        labelBackgroundColor: Colors.greenAccent,
-        child: _AnimatedListView(),
-      ),
-    );
-  }
+  State<AnimatedListCode> createState() => _AnimatedListCodeState();
 }
 
-class _AnimatedListView extends StatefulWidget {
-  @override
-  State<_AnimatedListView> createState() => _AnimatedListViewState();
-}
-
-class _AnimatedListViewState extends State<_AnimatedListView> {
+class _AnimatedListCodeState extends State<AnimatedListCode> {
   final items = [];
   final GlobalKey<AnimatedListState> _key = GlobalKey();
 

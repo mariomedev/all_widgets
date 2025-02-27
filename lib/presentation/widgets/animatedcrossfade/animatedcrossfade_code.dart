@@ -1,32 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:widget_with_codeview/widget_with_codeview.dart';
 
-class AnimatedCrossFadeWidget extends StatelessWidget {
-  const AnimatedCrossFadeWidget({super.key});
+class AnimatedCrossFadeCode extends StatefulWidget {
+  const AnimatedCrossFadeCode({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('AnimatedCrossFade Widget'),
-        centerTitle: true,
-      ),
-      body: WidgetWithCodeView(
-        filePath: 'lib/presentation/widgets/animatedcrossfade_widget.dart',
-        codeLinkPrefix: 'https://youtu.be/oXZ3nnXAVOg?si=S3ptcjqeNliYxdn7',
-        labelBackgroundColor: Colors.greenAccent,
-        child: _AnimatedCrossFadeView(),
-      ),
-    );
-  }
+  State<AnimatedCrossFadeCode> createState() => _AnimatedCrossFadeCodeState();
 }
 
-class _AnimatedCrossFadeView extends StatefulWidget {
-  @override
-  State<_AnimatedCrossFadeView> createState() => _AnimatedCrossFadeViewState();
-}
-
-class _AnimatedCrossFadeViewState extends State<_AnimatedCrossFadeView> {
+class _AnimatedCrossFadeCodeState extends State<AnimatedCrossFadeCode> {
   bool _bool = false;
   @override
   Widget build(BuildContext context) {

@@ -1,32 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:widget_with_codeview/widget_with_codeview.dart';
 
-class AnimatedIconWidget extends StatelessWidget {
-  const AnimatedIconWidget({super.key});
+class AnimatedIconCode extends StatefulWidget {
+  const AnimatedIconCode({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('AnimatedIcon Widget'),
-        centerTitle: true,
-      ),
-      body: WidgetWithCodeView(
-        filePath: 'lib/presentation/widgets/animatedicon_widget.dart',
-        codeLinkPrefix: 'https://youtu.be/dxJCs-UtOHg?si=h2f4Xq3qG0X_Ya0W',
-        labelBackgroundColor: Colors.greenAccent,
-        child: _AnimatedIconView(),
-      ),
-    );
-  }
+  State<AnimatedIconCode> createState() => _AnimatedIconCodeState();
 }
 
-class _AnimatedIconView extends StatefulWidget {
-  @override
-  State<_AnimatedIconView> createState() => _AnimatedIconViewState();
-}
-
-class _AnimatedIconViewState extends State<_AnimatedIconView>
+class _AnimatedIconCodeState extends State<AnimatedIconCode>
     with TickerProviderStateMixin {
   bool isPlay = true;
   late AnimationController controller;
@@ -59,9 +40,9 @@ class _AnimatedIconViewState extends State<_AnimatedIconView>
           ElevatedButton(
             onPressed: () => setState(
               () {
-                if (isPlay == false) {
+                if (isPlay == true) {
                   controller.forward();
-                  isPlay = true;
+                  isPlay = false;
                 } else {
                   controller.reverse();
                   isPlay = false;
