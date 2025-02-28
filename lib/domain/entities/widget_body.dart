@@ -116,4 +116,10 @@ final List<WidgetBody> widgets = [
         'Sirve para animar los cambios en la rotación de un widget.',
     route: '/animated_rotation',
   ),
+  WidgetBody(
+    title: 'Flutter AnimatedSize Widget',
+    description:
+        'Sirve para animar los cambios de tamaño de un widget.',
+    route: '/animated_size',
+  ),
 ];

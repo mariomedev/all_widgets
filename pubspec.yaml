@@ -39,4 +39,5 @@ flutter:
     - lib/presentation/widgets/animatedphysicalmodel/
     - lib/presentation/widgets/animatedpositioned/
     - lib/presentation/widgets/animatedrotation/
+    - lib/presentation/widgets/animatedsize/
 
