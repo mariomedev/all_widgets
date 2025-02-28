@@ -86,5 +86,9 @@ final routes = GoRouter(
       path: '/animated_size',
       builder: (context, state) => AnimatedSizeWidget(),
     ), 
+     GoRoute(
+      path: '/animated_switcher',
+      builder: (context, state) => AnimatedSwitcherWidget(),
+    ), 
   ],
 );

@@ -122,4 +122,10 @@ final List<WidgetBody> widgets = [
         'Sirve para animar los cambios de tamaño de un widget.',
     route: '/animated_size',
   ),
+  WidgetBody(
+    title: 'Flutter AnimatedSwitcher Widget',
+    description:
+        'Sirve para animar los cambios de un widget hijo de un AnimatedSwitcher.',
+    route: '/animated_switcher',
+  ),
 ];

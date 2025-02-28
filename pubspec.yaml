@@ -40,4 +40,5 @@ flutter:
     - lib/presentation/widgets/animatedpositioned/
     - lib/presentation/widgets/animatedrotation/
     - lib/presentation/widgets/animatedsize/
+    - lib/presentation/widgets/animatedswitcher/
 
