@@ -128,4 +128,10 @@ final List<WidgetBody> widgets = [
         'Sirve para animar los cambios de un widget hijo de un AnimatedSwitcher.',
     route: '/animated_switcher',
   ),
+  WidgetBody(
+    title: 'Flutter AppBar Widget',
+    description:
+        'Sirve para mostrar una barra de aplicación en la parte superior de la pantalla.',
+    route: '/app_bar',
+  ),
 ];

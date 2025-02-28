@@ -90,5 +90,9 @@ final routes = GoRouter(
       path: '/animated_switcher',
       builder: (context, state) => AnimatedSwitcherWidget(),
     ), 
+     GoRoute(
+      path: '/app_bar',
+      builder: (context, state) => AppBarWidget(),
+    ), 
   ],
 );

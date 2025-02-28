@@ -41,4 +41,5 @@ flutter:
     - lib/presentation/widgets/animatedrotation/
     - lib/presentation/widgets/animatedsize/
     - lib/presentation/widgets/animatedswitcher/
+    - lib/presentation/widgets/appbar/
 

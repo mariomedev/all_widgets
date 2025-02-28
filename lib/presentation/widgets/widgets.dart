@@ -18,3 +18,4 @@ export 'animatedpositioned/animatedpositioned_widget.dart';
 export 'animatedrotation/animatedrotation_widget.dart'; 
 export 'animatedsize/animatedsize_widget.dart'; 
 export 'animatedswitcher/animatedswitcher_widget.dart'; 
+export 'appbar/appbar_widget.dart';
