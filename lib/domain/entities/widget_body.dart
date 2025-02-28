@@ -110,4 +110,10 @@ final List<WidgetBody> widgets = [
         'Sirve para animar los cambios en la posición de un widget dentro de un Stack.',
     route: '/animated_positioned',
   ),
+  WidgetBody(
+    title: 'Flutter AnimatedRotation Widget',
+    description:
+        'Sirve para animar los cambios en la rotación de un widget.',
+    route: '/animated_rotation',
+  ),
 ];

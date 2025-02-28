@@ -78,5 +78,9 @@ final routes = GoRouter(
       path: '/animated_positioned',
       builder: (context, state) => AnimatedPositionedWidget(),
     ), 
+     GoRoute(
+      path: '/animated_rotation',
+      builder: (context, state) => AnimatedRotationWidget(),
+    ), 
   ],
 );

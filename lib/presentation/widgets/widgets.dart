@@ -15,3 +15,4 @@ export 'animatedopacity/animatedopacity_widget.dart';
 export 'animatedpadding/animatedpadding_widget.dart';
 export 'animatedphysicalmodel/animatedphysicalmodel_widget.dart';
 export 'animatedpositioned/animatedpositioned_widget.dart';
+export 'animatedrotation/animatedrotation_widget.dart'; 
