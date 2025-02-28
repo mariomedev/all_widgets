@@ -74,9 +74,9 @@ final routes = GoRouter(
       path: '/animated_physical_model',
       builder: (context, state) => AnimatedPhysicalModelWidget(),
     ),
-    /* GoRoute(
+     GoRoute(
       path: '/animated_positioned',
       builder: (context, state) => AnimatedPositionedWidget(),
-    ), */
+    ), 
   ],
 );

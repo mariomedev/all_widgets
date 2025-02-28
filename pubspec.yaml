@@ -37,4 +37,5 @@ flutter:
     - lib/presentation/widgets/animatedopacity/
     - lib/presentation/widgets/animatedpadding/
     - lib/presentation/widgets/animatedphysicalmodel/
+    - lib/presentation/widgets/animatedpositioned/
 
