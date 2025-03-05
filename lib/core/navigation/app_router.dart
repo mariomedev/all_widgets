@@ -94,5 +94,77 @@ final routes = GoRouter(
       path: '/app_bar',
       builder: (context, state) => AppBarWidget(),
     ), 
+     GoRoute(
+      path: '/aspect_ratio',
+      builder: (context, state) => AspectRatioWidget(),
+    ), 
+     GoRoute(
+      path: '/auto_compleate',
+      builder: (context, state) => AutoCompleteWidget(),
+    ), 
+     GoRoute(
+      path: '/back_drop_filter',
+      builder: (context, state) => BackDropFilterWidget(),
+    ), 
+     GoRoute(
+      path: '/banner',
+      builder: (context, state) => BannerWidget(),
+    ), 
+     GoRoute(
+      path: '/base_line',
+      builder: (context, state) => BaseLineWidget(),
+    ), 
+     GoRoute(
+      path: '/block_semantics',
+      builder: (context, state) => BlockSemanticsWidget(),
+    ), 
+     GoRoute(
+      path: '/bottom_navigation_bar',
+      builder: (context, state) => BottomNavigationBarWidget(),
+    ), 
+     GoRoute(
+      path: '/bottom_sheet',
+      builder: (context, state) => BottomSheetWidget(),
+    ), 
+     GoRoute(
+      path: '/builder',
+      builder: (context, state) => BuilderWidget(),
+    ), 
+     GoRoute(
+      path: '/card',
+      builder: (context, state) => CardWidget(),
+    ), 
+     GoRoute(
+      path: '/center',
+      builder: (context, state) => CenterWidget(),
+    ), 
+     GoRoute(
+      path: '/checkbox',
+      builder: (context, state) => CheckboxWidget(),
+    ), 
+     GoRoute(
+      path: '/checkbox_list_tile',
+      builder: (context, state) => CheckboxListTileWidget(),
+    ), 
+     GoRoute(
+      path: '/chip',
+      builder: (context, state) => ChipWidget(),
+    ), 
+     GoRoute(
+      path: '/choicechip',
+      builder: (context, state) => ChoiceChipWidget(),
+    ), 
+     GoRoute(
+      path: '/circleavatar',
+      builder: (context, state) => CircleAvatarWidget(),
+    ), 
+     GoRoute(
+      path: '/circular_progress_indicator',
+      builder: (context, state) => CircularProgressIndicatorWidget(),
+    ), 
+     GoRoute(
+      path: '/clipoval',
+      builder: (context, state) => ClipOvalWidget(),
+    ),
   ],
 );

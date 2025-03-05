@@ -134,4 +134,108 @@ final List<WidgetBody> widgets = [
         'Sirve para mostrar una barra de aplicación en la parte superior de la pantalla.',
     route: '/app_bar',
   ),
+  WidgetBody(
+    title: 'Flutter AspectRatio Widget',
+    description:
+        'Sirve para ajustar la relación de aspecto de un widget hijo.',
+    route: '/aspect_ratio',
+  ),
+  WidgetBody(
+    title: 'Flutter AutoCompleate Widget',
+    description:
+        'Sirve para mostrar una lista de sugerencias mientras el usuario escribe.',
+    route: '/auto_compleate',
+  ),
+  WidgetBody(
+    title: 'Flutter BackDropFilter Widget',
+    description:
+        'Sirve para aplicar un filtro a los hijos de un widget.',
+    route: '/back_drop_filter',
+  ),
+  WidgetBody(
+    title: 'Flutter Banner Widget',
+    description:
+        'Sirve para mostrar un banner en una esquina de la pantalla.',
+    route: '/banner',
+  ),
+  WidgetBody(
+    title: 'Flutter BaseLine Widget',
+    description:
+        'Sirve para alinear los widgets de línea base de texto en una fila.',
+    route: '/base_line',
+  ),
+  WidgetBody(
+    title: 'Flutter BlockSemantics Widget',
+    description:
+        'Sirve para deshabilitar la interacción con un widget y sus hijos.',
+    route: '/block_semantics',
+  ),
+  WidgetBody(
+    title: 'Flutter BottomNavigationBar Widget',
+    description:
+        'Sirve para mostrar una barra de navegación en la parte inferior de la pantalla.',
+    route: '/bottom_navigation_bar',
+  ),
+  WidgetBody(
+    title: 'Flutter BottomSheet Widget',
+    description:
+        'Sirve para mostrar un panel en la parte inferior de la pantalla.',
+    route: '/bottom_sheet',
+  ),
+  WidgetBody(
+    title: 'Flutter Builder Widget',
+    description:
+        'Sirve para construir un widget con animación.',
+    route: '/builder',
+  ),
+  WidgetBody(
+    title: 'Flutter Card Widget',
+    description:
+        'Sirve para mostrar un widget con sombra y esquinas redondeadas.',
+    route: '/card',
+  ),
+  WidgetBody(
+    title: 'Flutter Center Widget',
+    description:
+        'Sirve para alinear un widget en el centro de la pantalla.',
+    route: '/center',
+  ),
+  WidgetBody(
+    title: 'Flutter Checkbox Widget',
+    description:
+        'Sirve para mostrar un checkbox en la pantalla.',
+    route: '/checkbox',
+  ),
+  WidgetBody(
+    title: 'Flutter CheckboxListTile Widget',
+    description: 'Sirve para mostrar una lista de elementos con un checkbox.',
+    route: '/checkbox_list_tile',
+  ),
+  WidgetBody(
+    title: 'Flutter Chip Widget',
+    description:
+        'Muestra un chip en la pantalla con un avatar y un label.',
+    route: '/chip',
+  ),
+  WidgetBody(
+    title: 'Flutter ChoiceChip Widget',
+    description:
+        'Muestra un chip en la pantalla con un avatar y un label.',
+    route: '/choicechip',
+  ),
+  WidgetBody(
+    title: 'Flutter Circleavatar Widget',
+    description: 'Sirve para mostrar un avatar circular.',
+    route: '/circleavatar',
+  ),
+  WidgetBody(
+    title: 'Flutter CircularProgressIndicator Widget',
+    description: 'Sirve para mostrar un indicador de progreso circular.',
+    route: '/circular_progress_indicator',
+  ),
+  WidgetBody(
+    title: 'Flutter ClipOval Widget',
+    description: 'Sirve para recortar un widget en forma ovalada.',
+    route: '/clipoval',
+  ),
 ];
