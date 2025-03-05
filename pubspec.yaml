@@ -41,5 +41,22 @@ flutter:
     - lib/presentation/widgets/animatedrotation/
     - lib/presentation/widgets/animatedsize/
     - lib/presentation/widgets/animatedswitcher/
-    - lib/presentation/widgets/appbar/
-
+    - lib/presentation/widgets/appbar/ 
+    - lib/presentation/widgets/aspectratio/ 
+    - lib/presentation/widgets/autocomplete/ 
+    - lib/presentation/widgets/backdropfilter/ 
+    - lib/presentation/widgets/banner/ 
+    - lib/presentation/widgets/baseline/ 
+    - lib/presentation/widgets/blocksemantics/ 
+    - lib/presentation/widgets/bottomnavigationbar/ 
+    - lib/presentation/widgets/bottomsheet/ 
+    - lib/presentation/widgets/builder/ 
+    - lib/presentation/widgets/card/ 
+    - lib/presentation/widgets/center/ 
+    - lib/presentation/widgets/checkbox/ 
+    - lib/presentation/widgets/checkboxlisttile/ 
+    - lib/presentation/widgets/chip/ 
+    - lib/presentation/widgets/choicechip/ 
+    - lib/presentation/widgets/circleavatar/ 
+    - lib/presentation/widgets/circularprogressindicator/ 
+    - lib/presentation/widgets/clipoval/ 
