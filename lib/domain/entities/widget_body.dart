@@ -238,4 +238,34 @@ final List<WidgetBody> widgets = [
     description: 'Sirve para recortar un widget en forma ovalada.',
     route: '/clipoval',
   ),
+  WidgetBody(
+    title: 'Flutter ClipPath Widget',
+    description: 'Sirve para recortar un widget utilizando una ruta personalizada.',
+    route: '/clippath',
+  ),
+  WidgetBody(
+    title: 'Flutter ClipRect Widget',
+    description: 'Sirve para recortar un widget en forma rectangular.',
+    route: '/cliprect',
+  ),
+  WidgetBody(
+    title: 'Flutter ClipRRect Widget',
+    description: 'Sirve para recortar un widget en forma rectangular con bordes redondeados.',
+    route: '/cliprrect',
+  ),
+  WidgetBody(
+    title: 'Flutter CloseButton Widget',
+    description: 'Sirve para mostrar un botón de cierre estándar.',
+    route: '/close_button',
+  ),
+  WidgetBody(
+    title: 'Flutter ColoredBox Widget',
+    description: 'Sirve para pintar un cuadro con un color específico.',
+    route: '/colored_box',
+  ),
+  WidgetBody(
+    title: 'Flutter ColorFiltered Widget',
+    description: 'Sirve para aplicar un filtro de color a su widget hijo.',
+    route: '/color_filtered',
+  ),
 ];

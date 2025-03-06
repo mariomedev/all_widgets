@@ -166,5 +166,29 @@ final routes = GoRouter(
       path: '/clipoval',
       builder: (context, state) => ClipOvalWidget(),
     ),
+     GoRoute(
+      path: '/clippath',
+      builder: (context, state) => ClipPathWidget(),
+    ),
+     GoRoute(
+      path: '/cliprect',
+      builder: (context, state) => ClipRectWidget(),
+    ),
+     GoRoute(
+      path: '/cliprrect',
+      builder: (context, state) => ClipRRectWidget(),
+    ),
+     GoRoute(
+      path: '/close_button',
+      builder: (context, state) => CloseButtonWidget(),
+    ),
+     GoRoute(
+      path: '/colored_box',
+      builder: (context, state) => ColoredBoxWidget(),
+    ),
+     GoRoute(
+      path: '/color_filtered',
+      builder: (context, state) => ColorFilteredWidget(),
+    ),
   ],
 );

@@ -59,4 +59,10 @@ flutter:
     - lib/presentation/widgets/choicechip/ 
     - lib/presentation/widgets/circleavatar/ 
     - lib/presentation/widgets/circularprogressindicator/ 
-    - lib/presentation/widgets/clipoval/ 
+    - lib/presentation/widgets/clipoval/
+    - lib/presentation/widgets/clippath/
+    - lib/presentation/widgets/cliprect/
+    - lib/presentation/widgets/cliprrect/
+    - lib/presentation/widgets/closebutton/
+    - lib/presentation/widgets/coloredbox/
+    - lib/presentation/widgets/colorfiltered/
