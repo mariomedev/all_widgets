@@ -66,3 +66,8 @@ flutter:
     - lib/presentation/widgets/closebutton/
     - lib/presentation/widgets/coloredbox/
     - lib/presentation/widgets/colorfiltered/
+    - lib/presentation/widgets/constrainedbox/
+    - lib/presentation/widgets/container/
+    - lib/presentation/widgets/column/
+    - lib/presentation/widgets/cupertinoactionsheetaction/
+    - lib/presentation/widgets/cupertinoapp/

@@ -268,4 +268,29 @@ final List<WidgetBody> widgets = [
     description: 'Sirve para aplicar un filtro de color a su widget hijo.',
     route: '/color_filtered',
   ),
+  WidgetBody(
+    title: 'Flutter ConstrainedBox Widget',
+    description: 'Sirve para imponer restricciones adicionales a su widget hijo.',
+    route: '/constrained_box',
+  ),
+  WidgetBody(
+    title: 'Flutter Container Widget',
+    description: 'Sirve como un contenedor general con propiedades como padding, margin, color, etc.',
+    route: '/container',
+  ),
+  WidgetBody(
+    title: 'Flutter Column Widget',
+    description: 'Sirve para alinear widgets en una columna vertical.',
+    route: '/column',
+  ),
+  WidgetBody(
+    title: 'Flutter CupertinoActionSheetAction Widget',
+    description: 'Sirve para mostrar una acción en un CupertinoActionSheet.',
+    route: '/cupertino_action_sheet_action',
+  ),
+  WidgetBody(
+    title: 'Flutter CupertinoApp Widget',
+    description: 'Sirve como el contenedor principal para una aplicación estilo iOS.',
+    route: '/cupertino_app',
+  ),
 ];

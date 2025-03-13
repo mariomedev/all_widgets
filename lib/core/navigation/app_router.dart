@@ -190,5 +190,25 @@ final routes = GoRouter(
       path: '/color_filtered',
       builder: (context, state) => ColorFilteredWidget(),
     ),
+     GoRoute(
+      path: '/constrained_box',
+      builder: (context, state) => ConstrainedboxWidget(),
+    ),
+     GoRoute(
+      path: '/container',
+      builder: (context, state) => ContainerWidget(),
+    ),
+     GoRoute(
+      path: '/column',
+      builder: (context, state) => ColumnWidget(),
+    ),
+     GoRoute(
+      path: '/cupertino_action_sheet_action',
+      builder: (context, state) => CupertinoActionSheetActionWidget(),
+    ),
+     GoRoute(
+      path: '/cupertino_app',
+      builder: (context, state) => CupertinoAppWidget(),
+    ),
   ],
 );
