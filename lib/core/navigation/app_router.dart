@@ -210,5 +210,33 @@ final routes = GoRouter(
       path: '/cupertino_app',
       builder: (context, state) => CupertinoAppWidget(),
     ),
+     GoRoute(
+      path: '/cupertino_activity_indicator',
+      builder: (context, state) => CupertinoActivityIndicatorWidget(),
+    ),
+     GoRoute(
+      path: '/cupertino_alert_dialog',
+      builder: (context, state) => CupertinoAlertDialogWidget(),
+    ),
+     GoRoute(
+      path: '/cupertino_button',
+      builder: (context, state) => CupertinoButtonWidget(),
+    ),
+     GoRoute(
+      path: '/cupertino_context_menu',
+      builder: (context, state) => CupertinoContextMenuWidget(),
+    ),
+     GoRoute(
+      path: '/cupertino_date_picker',
+      builder: (context, state) => CupertinoDatePickerWidget(),
+    ),
+     GoRoute(
+      path: '/cupertino_page_route',
+      builder: (context, state) => CupertinoPageRouteWidget(),
+    ),
+     GoRoute(
+      path: '/cupertino_page_scaffold',
+      builder: (context, state) => CupertinoPageScaffoldWidget(),
+    ),
   ],
 );

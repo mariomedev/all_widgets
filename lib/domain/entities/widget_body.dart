@@ -293,4 +293,39 @@ final List<WidgetBody> widgets = [
     description: 'Sirve como el contenedor principal para una aplicación estilo iOS.',
     route: '/cupertino_app',
   ),
+  WidgetBody(
+    title: 'Flutter cupertinoactivityindicator Widget',
+    description: 'Sirve para mostrar un indicador de actividad estilo iOS.',
+    route: '/cupertino_activity_indicator',
+  ),
+  WidgetBody(
+    title: 'Flutter cupertinoalertdialog Widget',
+    description: 'Sirve para mostrar un cuadro de diálogo de alerta estilo iOS.',
+    route: '/cupertino_alert_dialog',
+  ),
+  WidgetBody(
+    title: 'Flutter cupertinobutton Widget',
+    description: 'Sirve para mostrar un botón estilo iOS.',
+    route: '/cupertino_button',
+  ),
+  WidgetBody(
+    title: 'Flutter cupertinocontextmenu Widget',
+    description: 'Sirve para mostrar un menú contextual estilo iOS.',
+    route: '/cupertino_context_menu',
+  ),
+  WidgetBody(
+    title: 'Flutter cupertinodatepicker Widget',
+    description: 'Sirve para mostrar un selector de fecha estilo iOS.',
+    route: '/cupertino_date_picker',
+  ),
+  WidgetBody(
+    title: 'Flutter cupertinopageroute Widget',
+    description: 'Sirve para crear una ruta de página estilo iOS.',
+    route: '/cupertino_page_route',
+  ),
+  WidgetBody(
+    title: 'Flutter cupertinopagescaffold Widget',
+    description: 'Sirve como un contenedor principal para una página estilo iOS.',
+    route: '/cupertino_page_scaffold',
+  ),
 ];

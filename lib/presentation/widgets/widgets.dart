@@ -48,3 +48,11 @@ export 'container/container_widget.dart';
 export 'column/column_widget.dart';
 export 'cupertinoactionsheetaction/cupertinoactionsheetaction_widget.dart';
 export 'cupertinoapp/cupertinoapp_widget.dart';
+
+export 'cupertinoactivityindicator/cupertinoactivityindicator_widget.dart';
+export 'cupertinoalertdialog/cupertinoalertdialog_widget.dart';
+export 'cupertinobutton/cupertinobutton_widget.dart';
+export 'cupertinocontextmenu/cupertinocontextmenu_widget.dart';
+export 'cupertinodatepicker/cupertinodatepicker_widget.dart';
+export 'cupertinopageroute/cupertinopageroute_widget.dart';
+export 'cupertinopagescaffold/cupertinopagescaffold_widget.dart';

@@ -71,3 +71,10 @@ flutter:
     - lib/presentation/widgets/column/
     - lib/presentation/widgets/cupertinoactionsheetaction/
     - lib/presentation/widgets/cupertinoapp/
+    - lib/presentation/widgets/cupertinoactivityindicator/
+    - lib/presentation/widgets/cupertinoalertdialog/
+    - lib/presentation/widgets/cupertinobutton/
+    - lib/presentation/widgets/cupertinocontextmenu/
+    - lib/presentation/widgets/cupertinodatepicker/
+    - lib/presentation/widgets/cupertinopageroute/
+    - lib/presentation/widgets/cupertinopagescaffold/
