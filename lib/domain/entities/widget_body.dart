@@ -88,14 +88,12 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter AnimatedOpacity Widget',
-    description:
-        'Sirve para animar los cambios en la opacidad de un widget.',
+    description: 'Sirve para animar los cambios en la opacidad de un widget.',
     route: '/animated_opacity',
   ),
   WidgetBody(
     title: 'Flutter AnimatedPadding Widget',
-    description:
-        'Sirve para animar los cambios en el padding de un widget.',
+    description: 'Sirve para animar los cambios en el padding de un widget.',
     route: '/animated_padding',
   ),
   WidgetBody(
@@ -112,14 +110,12 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter AnimatedRotation Widget',
-    description:
-        'Sirve para animar los cambios en la rotación de un widget.',
+    description: 'Sirve para animar los cambios en la rotación de un widget.',
     route: '/animated_rotation',
   ),
   WidgetBody(
     title: 'Flutter AnimatedSize Widget',
-    description:
-        'Sirve para animar los cambios de tamaño de un widget.',
+    description: 'Sirve para animar los cambios de tamaño de un widget.',
     route: '/animated_size',
   ),
   WidgetBody(
@@ -136,8 +132,7 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter AspectRatio Widget',
-    description:
-        'Sirve para ajustar la relación de aspecto de un widget hijo.',
+    description: 'Sirve para ajustar la relación de aspecto de un widget hijo.',
     route: '/aspect_ratio',
   ),
   WidgetBody(
@@ -148,14 +143,12 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter BackDropFilter Widget',
-    description:
-        'Sirve para aplicar un filtro a los hijos de un widget.',
+    description: 'Sirve para aplicar un filtro a los hijos de un widget.',
     route: '/back_drop_filter',
   ),
   WidgetBody(
     title: 'Flutter Banner Widget',
-    description:
-        'Sirve para mostrar un banner en una esquina de la pantalla.',
+    description: 'Sirve para mostrar un banner en una esquina de la pantalla.',
     route: '/banner',
   ),
   WidgetBody(
@@ -184,8 +177,7 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter Builder Widget',
-    description:
-        'Sirve para construir un widget con animación.',
+    description: 'Sirve para construir un widget con animación.',
     route: '/builder',
   ),
   WidgetBody(
@@ -196,14 +188,12 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter Center Widget',
-    description:
-        'Sirve para alinear un widget en el centro de la pantalla.',
+    description: 'Sirve para alinear un widget en el centro de la pantalla.',
     route: '/center',
   ),
   WidgetBody(
     title: 'Flutter Checkbox Widget',
-    description:
-        'Sirve para mostrar un checkbox en la pantalla.',
+    description: 'Sirve para mostrar un checkbox en la pantalla.',
     route: '/checkbox',
   ),
   WidgetBody(
@@ -213,14 +203,12 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter Chip Widget',
-    description:
-        'Muestra un chip en la pantalla con un avatar y un label.',
+    description: 'Muestra un chip en la pantalla con un avatar y un label.',
     route: '/chip',
   ),
   WidgetBody(
     title: 'Flutter ChoiceChip Widget',
-    description:
-        'Muestra un chip en la pantalla con un avatar y un label.',
+    description: 'Muestra un chip en la pantalla con un avatar y un label.',
     route: '/choicechip',
   ),
   WidgetBody(
@@ -240,7 +228,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter ClipPath Widget',
-    description: 'Sirve para recortar un widget utilizando una ruta personalizada.',
+    description:
+        'Sirve para recortar un widget utilizando una ruta personalizada.',
     route: '/clippath',
   ),
   WidgetBody(
@@ -250,7 +239,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter ClipRRect Widget',
-    description: 'Sirve para recortar un widget en forma rectangular con bordes redondeados.',
+    description:
+        'Sirve para recortar un widget en forma rectangular con bordes redondeados.',
     route: '/cliprrect',
   ),
   WidgetBody(
@@ -270,12 +260,14 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter ConstrainedBox Widget',
-    description: 'Sirve para imponer restricciones adicionales a su widget hijo.',
+    description:
+        'Sirve para imponer restricciones adicionales a su widget hijo.',
     route: '/constrained_box',
   ),
   WidgetBody(
     title: 'Flutter Container Widget',
-    description: 'Sirve como un contenedor general con propiedades como padding, margin, color, etc.',
+    description:
+        'Sirve como un contenedor general con propiedades como padding, margin, color, etc.',
     route: '/container',
   ),
   WidgetBody(
@@ -290,7 +282,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter CupertinoApp Widget',
-    description: 'Sirve como el contenedor principal para una aplicación estilo iOS.',
+    description:
+        'Sirve como el contenedor principal para una aplicación estilo iOS.',
     route: '/cupertino_app',
   ),
   WidgetBody(
@@ -300,7 +293,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter cupertinoalertdialog Widget',
-    description: 'Sirve para mostrar un cuadro de diálogo de alerta estilo iOS.',
+    description:
+        'Sirve para mostrar un cuadro de diálogo de alerta estilo iOS.',
     route: '/cupertino_alert_dialog',
   ),
   WidgetBody(
@@ -325,7 +319,49 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter cupertinopagescaffold Widget',
-    description: 'Sirve como un contenedor principal para una página estilo iOS.',
+    description:
+        'Sirve como un contenedor principal para una página estilo iOS.',
     route: '/cupertino_page_scaffold',
+  ),
+  WidgetBody(
+    title: 'Flutter CupertinoPicker Widget',
+    description: 'Sirve para mostrar un selector estilo iOS.',
+    route: '/cupertino_picker',
+  ),
+  WidgetBody(
+    title: 'Flutter CupertinoPopupSurface Widget',
+    description: 'Sirve para mostrar una superficie emergente estilo iOS.',
+    route: '/cupertino_pop_up_surface',
+  ),
+  WidgetBody(
+    title: 'Flutter CupertinoScrollbar Widget',
+    description: 'Sirve para mostrar una barra de desplazamiento estilo iOS.',
+    route: '/cupertino_scrollbar',
+  ),
+  WidgetBody(
+    title: 'Flutter CupertinoSearchTextField Widget',
+    description: 'Sirve para mostrar un campo de texto de búsqueda estilo iOS.',
+    route: '/cupertino_search_text_field',
+  ),
+  WidgetBody(
+    title: 'Flutter CupertinoSegmentedControl Widget',
+    description: 'Sirve para mostrar un control segmentado estilo iOS.',
+    route: '/cupertino_segmented_control',
+  ),
+  WidgetBody(
+    title: 'Flutter CupertinoSlider Widget',
+    description: 'Sirve para mostrar un control deslizante estilo iOS.',
+    route: '/cupertino_slider',
+  ),
+  WidgetBody(
+    title: 'Flutter CupertinoSlidingSegmentedControl Widget',
+    description:
+        'Sirve para mostrar un control segmentado deslizante estilo iOS.',
+    route: '/cupertino_sliding_segmented_control',
+  ),
+  WidgetBody(
+    title: 'Flutter CupertinoSwitch Widget',
+    description: 'Sirve para mostrar un interruptor estilo iOS.',
+    route: '/cupertino_switch',
   ),
 ];

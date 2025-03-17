@@ -238,5 +238,38 @@ final routes = GoRouter(
       path: '/cupertino_page_scaffold',
       builder: (context, state) => CupertinoPageScaffoldWidget(),
     ),
+
+     GoRoute(
+      path: '/cupertino_picker',
+      builder: (context, state) => CupertinoPickerWidget(),
+    ),
+     GoRoute(
+      path: '/cupertino_pop_up_surface',
+      builder: (context, state) => CupertinoPopupSurfaceWidget(),
+    ),
+     GoRoute(
+      path: '/cupertino_scrollbar',
+      builder: (context, state) => CupertinoScrollbarWidget(),
+    ),
+     GoRoute(
+      path: '/cupertino_search_text_field',
+      builder: (context, state) => CupertinoSearchTextFieldWidget(),
+    ),
+     GoRoute(
+      path: '/cupertino_segmented_control',
+      builder: (context, state) => CupertinoSegmentedControlWidget(),
+    ),
+     GoRoute(
+      path: '/cupertino_slider',
+      builder: (context, state) => CupertinoSliderWidget(),
+    ),
+     GoRoute(
+      path: '/cupertino_sliding_segmented_control',
+      builder: (context, state) => CupertinoSlidingSegmentedControlWidget(),
+    ),
+     GoRoute(
+      path: '/cupertino_switch',
+      builder: (context, state) => CupertinoSwitchWidget(),
+    ),
   ],
 );

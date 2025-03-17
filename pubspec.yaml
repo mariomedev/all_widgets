@@ -78,3 +78,11 @@ flutter:
     - lib/presentation/widgets/cupertinodatepicker/
     - lib/presentation/widgets/cupertinopageroute/
     - lib/presentation/widgets/cupertinopagescaffold/
+    - lib/presentation/widgets/cupertinopicker/
+    - lib/presentation/widgets/cupertinopopupsurface/
+    - lib/presentation/widgets/cupertinoscrollbar/
+    - lib/presentation/widgets/cupertinosearchtextfield/
+    - lib/presentation/widgets/cupertinosegmentedcontrol/
+    - lib/presentation/widgets/cupertinoslider/
+    - lib/presentation/widgets/cupertinoslidingsegmentedcontrol/
+    - lib/presentation/widgets/cupertinoswitch/
