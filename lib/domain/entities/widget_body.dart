@@ -363,5 +363,35 @@ final List<WidgetBody> widgets = [
     title: 'Flutter CupertinoSwitch Widget',
     description: 'Sirve para mostrar un interruptor estilo iOS.',
     route: '/cupertino_switch',
+  ), 
+  WidgetBody(
+    title: 'Flutter CupertinoTabScaffold Widget',
+    description: 'Sirve para mostrar una estructura de pestañas estilo iOS.',
+    route: '/cupertino_tab_scaffold',
+  ),
+  WidgetBody(
+    title: 'Flutter CupertinoTextField Widget',
+    description: 'Sirve para mostrar un campo de texto estilo iOS.',
+    route: '/cupertino_text_field',
+  ),
+  WidgetBody(
+    title: 'Flutter CustomPaint Widget',
+    description: 'Sirve para realizar dibujos personalizados en el canvas.',
+    route: '/custom_paint',
+  ),
+  WidgetBody(
+    title: 'Flutter CustomScrollView Widget',
+    description: 'Sirve para crear una vista de desplazamiento personalizada.',
+    route: '/custom_scroll_view',
+  ),
+  WidgetBody(
+    title: 'Flutter DataTable Widget',
+    description: 'Sirve para mostrar datos en una tabla.',
+    route: '/data_table',
+  ),
+  WidgetBody(
+    title: 'Flutter DatePicker Widget',
+    description: 'Sirve para seleccionar una fecha.',
+    route: '/date_picker',
   ),
 ];

@@ -271,5 +271,29 @@ final routes = GoRouter(
       path: '/cupertino_switch',
       builder: (context, state) => CupertinoSwitchWidget(),
     ),
+     GoRoute(
+      path: '/cupertino_tab_scaffold',
+      builder: (context, state) => CupertinoTabScaffoldWidget(),
+    ),
+     GoRoute(
+      path: '/cupertino_text_field',
+      builder: (context, state) => CupertinoTextFieldWidget(),
+    ),
+     GoRoute(
+      path: '/custom_paint',
+      builder: (context, state) => CustomPaintWidget(),
+    ),
+     GoRoute(
+      path: '/custom_scroll_view',
+      builder: (context, state) => CustomScrollViewWidget(),
+    ),
+     GoRoute(
+      path: '/data_table',
+      builder: (context, state) => DataTableWidget(),
+    ),
+     GoRoute(
+      path: '/date_picker',
+      builder: (context, state) => DatePickerWidget(),
+    ),
   ],
 );

@@ -86,3 +86,9 @@ flutter:
     - lib/presentation/widgets/cupertinoslider/
     - lib/presentation/widgets/cupertinoslidingsegmentedcontrol/
     - lib/presentation/widgets/cupertinoswitch/
+    - lib/presentation/widgets/cupertinotabscaffold/
+    - lib/presentation/widgets/cupertinotextfield/
+    - lib/presentation/widgets/custompaint/
+    - lib/presentation/widgets/customscrollview/
+    - lib/presentation/widgets/datatable/
+    - lib/presentation/widgets/datepicker/
