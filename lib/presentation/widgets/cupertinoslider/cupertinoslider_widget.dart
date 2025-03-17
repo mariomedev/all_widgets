@@ -17,7 +17,7 @@ class CupertinoSliderWidget extends StatelessWidget {
       body: WidgetWithCodeView(
         filePath:
             'lib/presentation/widgets/cupertinoslider/cupertinoslider_code.dart',
-        codeLinkPrefix: '',
+        codeLinkPrefix: 'https://youtu.be/mRRXMcLjGPE?si=QlsFEvWIktej_V_C',
         labelBackgroundColor: Colors.greenAccent,
         child: CupertinosliderCode(),
       ),

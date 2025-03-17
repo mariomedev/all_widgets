@@ -18,7 +18,7 @@ class CupertinoScrollbarWidget extends StatelessWidget {
       body: WidgetWithCodeView(
         filePath:
             'lib/presentation/widgets/cupertinoscrollbar/cupertinoscrollbar_code.dart',
-        codeLinkPrefix: '',
+        codeLinkPrefix: 'https://youtu.be/BVQkeyYnE0k?si=t3rCtEq6AShxWJ9I',
         labelBackgroundColor: Colors.greenAccent,
         child: CupertinoscrollbarCode(),
       ),

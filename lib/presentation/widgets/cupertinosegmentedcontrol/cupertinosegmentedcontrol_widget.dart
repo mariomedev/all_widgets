@@ -17,7 +17,7 @@ class CupertinoSegmentedControlWidget extends StatelessWidget {
       body: WidgetWithCodeView(
         filePath:
             'lib/presentation/widgets/cupertinosegmentedcontrol/cupertinosegmentedcontrol_code.dart',
-        codeLinkPrefix: '',
+        codeLinkPrefix: 'https://youtu.be/tYHkoZkSIcw?si=lrdDE3lRt6cUFwJn',
         labelBackgroundColor: Colors.greenAccent,
         child: CupertinosegmentedcontrolCode(),
       ),

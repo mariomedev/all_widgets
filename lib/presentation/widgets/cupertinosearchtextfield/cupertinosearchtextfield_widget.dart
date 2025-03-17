@@ -17,7 +17,7 @@ class CupertinoSearchTextFieldWidget extends StatelessWidget {
       body: WidgetWithCodeView(
         filePath:
             'lib/presentation/widgets/cupertinosearchtextfield/cupertinosearchtextfield_code.dart',
-        codeLinkPrefix: '',
+        codeLinkPrefix: 'https://youtu.be/GIVrXyvEEWs?si=onUp8iBo34-joTuB',
         labelBackgroundColor: Colors.greenAccent,
         child: CupertinosearchtextfieldCode(),
       ),
