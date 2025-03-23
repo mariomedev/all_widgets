@@ -92,3 +92,19 @@ flutter:
     - lib/presentation/widgets/customscrollview/
     - lib/presentation/widgets/datatable/
     - lib/presentation/widgets/datepicker/
+    - lib/presentation/widgets/daterangepicker/
+    - lib/presentation/widgets/decoratedbox/
+    
+    - lib/presentation/widgets/decoratedboxtransition/
+    - lib/presentation/widgets/defaulttextstyle/
+    - lib/presentation/widgets/dismissible/
+    - lib/presentation/widgets/divider/
+    - lib/presentation/widgets/draggable/
+    - lib/presentation/widgets/draggablescrollable/
+    - lib/presentation/widgets/dragtarget/
+    - lib/presentation/widgets/drawer/
+    - lib/presentation/widgets/drawerheader/
+    - lib/presentation/widgets/elevatedbutton/
+    - lib/presentation/widgets/expanded/
+    - lib/presentation/widgets/expandicon/
+    - lib/presentation/widgets/dropdownbutton/

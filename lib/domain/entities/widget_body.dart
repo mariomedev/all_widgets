@@ -393,5 +393,91 @@ final List<WidgetBody> widgets = [
     title: 'Flutter DatePicker Widget',
     description: 'Sirve para seleccionar una fecha.',
     route: '/date_picker',
+  ), 
+  WidgetBody(
+    title: 'Flutter DateRangePicker Widget',
+    description: 'Sirve para seleccionar un rango de fechas.',
+    route: '/date_range_picker',
+  ), 
+  WidgetBody(
+    title: 'Flutter DecoratedBox Widget',
+    description: 'Sirve para decorar un widget hijo con bordes, sombras, etc.',
+    route: '/decorated_box',
+  ), 
+  WidgetBody(
+    title: 'Flutter DecoratedBoxTransition Widget',
+    description: 'Sirve para animar los cambios en la decoración de un widget.',
+    route: '/decorated_box_transition',
   ),
+  WidgetBody(
+    title: 'Flutter DefaultTextStyle Widget',
+    description: 'Sirve para definir un estilo de texto predeterminado para sus hijos.',
+    route: '/default_text_style',
+  ),
+  WidgetBody(
+    title: 'Flutter Dismissible Widget',
+    description: 'Sirve para deslizar un widget y realizar una acción, como eliminarlo.',
+    route: '/dismissible',
+  ),
+  WidgetBody(
+    title: 'Flutter Divider Widget',
+    description: 'Sirve para mostrar una línea divisoria horizontal.',
+    route: '/divider',
+  ),
+  WidgetBody(
+    title: 'Flutter Draggable Widget',
+    description: 'Sirve para hacer que un widget sea arrastrable.',
+    route: '/draggable',
+  ),
+  WidgetBody(
+    title: 'Flutter DraggableScrollable Widget',
+    description: 'Sirve para crear un contenedor desplazable que se puede arrastrar.',
+    route: '/draggable_scrollable',
+  ),
+  WidgetBody(
+    title: 'Flutter DragTarget Widget',
+    description: 'Sirve como un objetivo para widgets arrastrables.',
+    route: '/drag_target',
+  ),
+  WidgetBody(
+    title: 'Flutter Drawer Widget',
+    description: 'Sirve para mostrar un menú lateral deslizable.',
+    route: '/drawer',
+  ),
+  WidgetBody(
+    title: 'Flutter DrawerHeader Widget',
+    description: 'Sirve para mostrar un encabezado dentro de un Drawer.',
+    route: '/drawer_header',
+  ),
+  WidgetBody(
+    title: 'Flutter DropdownButton Widget',
+    description: 'Sirve para mostrar un botón desplegable con opciones.',
+    route: '/drop_down_button',
+  ),
+  WidgetBody(
+    title: 'Flutter ElevatedButton Widget',
+    description: 'Sirve para mostrar un botón elevado.',
+    route: '/elevated_button',
+  ),
+  WidgetBody(
+    title: 'Flutter Error Widget',
+    description: 'Sirve para mostrar un widget de error cuando ocurre un problema.',
+    route: '/error',
+  ),
+  WidgetBody(
+    title: 'Flutter ErrorDetails Widget',
+    description: 'Sirve para proporcionar detalles sobre un error.',
+    route: '/error_details',
+  ),
+  WidgetBody(
+    title: 'Flutter Expanded Widget',
+    description: 'Sirve para expandir un widget hijo dentro de un Row, Column o Flex.',
+    route: '/expanded',
+  ),
+  WidgetBody(
+    title: 'Flutter ExpandIcon Widget',
+    description: 'Sirve para mostrar un icono que se expande o colapsa.',
+    route: '/expand_icon',
+  ),
+
 ];
