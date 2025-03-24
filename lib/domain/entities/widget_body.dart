@@ -11,7 +11,7 @@ class WidgetBody {
 }
 
 final List<WidgetBody> widgets = [
-  WidgetBody(
+ WidgetBody(
     title: 'Flutter AboutDialog Widget',
     description:
         'Sirve para mostrar un dialogo con información sobre la aplicación.',
@@ -478,6 +478,80 @@ final List<WidgetBody> widgets = [
     title: 'Flutter ExpandIcon Widget',
     description: 'Sirve para mostrar un icono que se expande o colapsa.',
     route: '/expand_icon',
+  ), 
+  WidgetBody(
+    title: 'Flutter ExpansionPanelList Widget',
+    description: 'Sirve para mostrar una lista de paneles expandibles.',
+    route: '/expansion_panel_list',
   ),
-
+  WidgetBody(
+    title: 'Flutter ExpansionPanel Widget',
+    description: 'Sirve para mostrar un panel expandible dentro de una lista.',
+    route: '/expansion_panel',
+  ),
+  WidgetBody(
+    title: 'Flutter ExpansionTile Widget',
+    description: 'Sirve para mostrar un widget que se expande o colapsa al hacer clic.',
+    route: '/expansion_tile',
+  ),
+  WidgetBody(
+    title: 'Flutter FadeInImage Widget',
+    description: 'Sirve para mostrar una imagen con un efecto de fade al cargar.',
+    route: '/fade_in_image',
+  ),
+  WidgetBody(
+    title: 'Flutter FadeTransition Widget',
+    description: 'Sirve para animar la opacidad de un widget.',
+    route: '/fade_transition',
+  ),
+  WidgetBody(
+    title: 'Flutter FilterChip Widget',
+    description: 'Sirve para mostrar un chip que representa una opción seleccionable.',
+    route: '/filter_chip',
+  ),
+  WidgetBody(
+    title: 'Flutter FittedBox Widget',
+    description: 'Sirve para escalar y alinear un widget hijo dentro de su contenedor.',
+    route: '/fitted_box',
+  ),
+  WidgetBody(
+    title: 'Flutter Flexible Widget',
+    description: 'Sirve para ajustar el tamaño de un widget hijo dentro de un Row, Column o Flex.',
+    route: '/flexible',
+  ),
+  WidgetBody(
+    title: 'Flutter FloatingActionButton Widget',
+    description: 'Sirve para mostrar un botón flotante de acción.',
+    route: '/floating_action_button',
+  ),
+  WidgetBody(
+    title: 'Flutter Flow Widget',
+    description: 'Sirve para organizar widgets en un patrón de flujo personalizado.',
+    route: '/flow',
+  ),
+  WidgetBody(
+    title: 'Flutter FlutterLogo Widget',
+    description: 'Sirve para mostrar el logotipo de Flutter.',
+    route: '/flutter_logo',
+  ),
+  WidgetBody(
+    title: 'Flutter Form Widget',
+    description: 'Sirve como contenedor para agrupar y validar campos de entrada.',
+    route: '/form',
+  ),
+  WidgetBody(
+    title: 'Flutter FractionallySizedBox Widget',
+    description: 'Sirve para ajustar el tamaño de un widget hijo en función de fracciones del contenedor.',
+    route: '/fractionally_sized_box',
+  ),
+  WidgetBody(
+    title: 'Flutter FractionalTranslation Widget',
+    description: 'Sirve para mover un widget hijo en función de fracciones de su tamaño.',
+    route: '/fractional_translation',
+  ),
+  WidgetBody(
+    title: 'Flutter FutureBuilder Widget',
+    description: 'Sirve para construir widgets basados en el resultado de un Future.',
+    route: '/future_builder',
+  ),
 ];

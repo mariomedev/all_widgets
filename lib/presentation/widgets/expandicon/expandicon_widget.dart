@@ -16,7 +16,7 @@ class ExpandIconWidget extends StatelessWidget {
       ),
       body: WidgetWithCodeView(
         filePath: 'lib/presentation/widgets/expandicon/expandicon_code.dart',
-        codeLinkPrefix: '',
+        codeLinkPrefix: 'https://youtu.be/8vIl3zRB-JI?si=G95GqqD8pFJsT8nO',
         labelBackgroundColor: Colors.greenAccent,
         child: ExpandiconCode(),
       ),

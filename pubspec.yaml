@@ -21,6 +21,7 @@ flutter:
   uses-material-design: true
   
   assets:
+    - assets/img/
     - lib/presentation/widgets/aboutdialog/
     - lib/presentation/widgets/aboutlisttile/
     - lib/presentation/widgets/absorbpointer/
@@ -94,7 +95,6 @@ flutter:
     - lib/presentation/widgets/datepicker/
     - lib/presentation/widgets/daterangepicker/
     - lib/presentation/widgets/decoratedbox/
-    
     - lib/presentation/widgets/decoratedboxtransition/
     - lib/presentation/widgets/defaulttextstyle/
     - lib/presentation/widgets/dismissible/
@@ -108,3 +108,18 @@ flutter:
     - lib/presentation/widgets/expanded/
     - lib/presentation/widgets/expandicon/
     - lib/presentation/widgets/dropdownbutton/
+    - lib/presentation/widgets/expansionpanellist/
+    - lib/presentation/widgets/expansionpanel/
+    - lib/presentation/widgets/expansiontile/
+    - lib/presentation/widgets/fadeinimage/
+    - lib/presentation/widgets/fadetransition/
+    - lib/presentation/widgets/filterchip/
+    - lib/presentation/widgets/fittedbox/
+    - lib/presentation/widgets/flexible/
+    - lib/presentation/widgets/floatingactionbutton/
+    - lib/presentation/widgets/flow/
+    - lib/presentation/widgets/flutterlogo/
+    - lib/presentation/widgets/form/
+    - lib/presentation/widgets/fractionaltranslation/
+    - lib/presentation/widgets/futurebuilder/
+    - lib/presentation/widgets/fractionallysizedbox/

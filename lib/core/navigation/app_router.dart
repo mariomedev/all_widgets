@@ -354,5 +354,65 @@ final routes = GoRouter(
       path: '/drop_down_button',
       builder: (context, state) => DropdownButtonWidget(),
     ),
+    GoRoute(
+      path: '/expansion_panel_list',
+      builder: (context, state) => ExpansionPanelListWidget(),
+    ),
+    GoRoute(
+      path: '/expansion_panel',
+      builder: (context, state) => ExpansionPanelWidget(),
+    ),
+    GoRoute(
+      path: '/expansion_tile',
+      builder: (context, state) => ExpansionTileWidget(),
+    ),
+    GoRoute(
+      path: '/fade_in_image',
+      builder: (context, state) => FadeInImageWidget(),
+    ),
+    GoRoute(
+      path: '/fade_transition',
+      builder: (context, state) => FadeTransitionWidget(),
+    ),
+    GoRoute(
+      path: '/filter_chip',
+      builder: (context, state) => FilterChipWidget(),
+    ),
+    GoRoute(
+      path: '/fitted_box',
+      builder: (context, state) => FittedBoxWidget(),
+    ),
+    GoRoute(
+      path: '/flexible',
+      builder: (context, state) => FlexibleWidget(),
+    ),
+    GoRoute(
+      path: '/floating_action_button',
+      builder: (context, state) => FloatingActionButtonWidget(),
+    ),
+    GoRoute(
+      path: '/flow',
+      builder: (context, state) => FlowWidget(),
+    ),
+    GoRoute(
+      path: '/flutter_logo',
+      builder: (context, state) => FlutterLogoWidget(),
+    ),
+    GoRoute(
+      path: '/form',
+      builder: (context, state) => FormWidget(),
+    ),
+    GoRoute(
+      path: '/fractional_translation',
+      builder: (context, state) => FractionalTranslationWidget(),
+    ),
+    GoRoute(
+      path: '/future_builder',
+      builder: (context, state) => FutureBuilderWidget(),
+    ),
+    GoRoute(
+      path: '/fractionally_sized_box',
+      builder: (context, state) => FractionallySizedBoxWidget(),
+    ),
   ],
 );
