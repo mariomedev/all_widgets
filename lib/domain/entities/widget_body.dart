@@ -11,7 +11,7 @@ class WidgetBody {
 }
 
 final List<WidgetBody> widgets = [
- WidgetBody(
+  WidgetBody(
     title: 'Flutter AboutDialog Widget',
     description:
         'Sirve para mostrar un dialogo con información sobre la aplicación.',
@@ -363,7 +363,7 @@ final List<WidgetBody> widgets = [
     title: 'Flutter CupertinoSwitch Widget',
     description: 'Sirve para mostrar un interruptor estilo iOS.',
     route: '/cupertino_switch',
-  ), 
+  ),
   WidgetBody(
     title: 'Flutter CupertinoTabScaffold Widget',
     description: 'Sirve para mostrar una estructura de pestañas estilo iOS.',
@@ -393,17 +393,17 @@ final List<WidgetBody> widgets = [
     title: 'Flutter DatePicker Widget',
     description: 'Sirve para seleccionar una fecha.',
     route: '/date_picker',
-  ), 
+  ),
   WidgetBody(
     title: 'Flutter DateRangePicker Widget',
     description: 'Sirve para seleccionar un rango de fechas.',
     route: '/date_range_picker',
-  ), 
+  ),
   WidgetBody(
     title: 'Flutter DecoratedBox Widget',
     description: 'Sirve para decorar un widget hijo con bordes, sombras, etc.',
     route: '/decorated_box',
-  ), 
+  ),
   WidgetBody(
     title: 'Flutter DecoratedBoxTransition Widget',
     description: 'Sirve para animar los cambios en la decoración de un widget.',
@@ -411,12 +411,14 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter DefaultTextStyle Widget',
-    description: 'Sirve para definir un estilo de texto predeterminado para sus hijos.',
+    description:
+        'Sirve para definir un estilo de texto predeterminado para sus hijos.',
     route: '/default_text_style',
   ),
   WidgetBody(
     title: 'Flutter Dismissible Widget',
-    description: 'Sirve para deslizar un widget y realizar una acción, como eliminarlo.',
+    description:
+        'Sirve para deslizar un widget y realizar una acción, como eliminarlo.',
     route: '/dismissible',
   ),
   WidgetBody(
@@ -431,7 +433,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter DraggableScrollable Widget',
-    description: 'Sirve para crear un contenedor desplazable que se puede arrastrar.',
+    description:
+        'Sirve para crear un contenedor desplazable que se puede arrastrar.',
     route: '/draggable_scrollable',
   ),
   WidgetBody(
@@ -461,7 +464,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter Error Widget',
-    description: 'Sirve para mostrar un widget de error cuando ocurre un problema.',
+    description:
+        'Sirve para mostrar un widget de error cuando ocurre un problema.',
     route: '/error',
   ),
   WidgetBody(
@@ -471,14 +475,15 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter Expanded Widget',
-    description: 'Sirve para expandir un widget hijo dentro de un Row, Column o Flex.',
+    description:
+        'Sirve para expandir un widget hijo dentro de un Row, Column o Flex.',
     route: '/expanded',
   ),
   WidgetBody(
     title: 'Flutter ExpandIcon Widget',
     description: 'Sirve para mostrar un icono que se expande o colapsa.',
     route: '/expand_icon',
-  ), 
+  ),
   WidgetBody(
     title: 'Flutter ExpansionPanelList Widget',
     description: 'Sirve para mostrar una lista de paneles expandibles.',
@@ -491,12 +496,14 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter ExpansionTile Widget',
-    description: 'Sirve para mostrar un widget que se expande o colapsa al hacer clic.',
+    description:
+        'Sirve para mostrar un widget que se expande o colapsa al hacer clic.',
     route: '/expansion_tile',
   ),
   WidgetBody(
     title: 'Flutter FadeInImage Widget',
-    description: 'Sirve para mostrar una imagen con un efecto de fade al cargar.',
+    description:
+        'Sirve para mostrar una imagen con un efecto de fade al cargar.',
     route: '/fade_in_image',
   ),
   WidgetBody(
@@ -506,17 +513,20 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter FilterChip Widget',
-    description: 'Sirve para mostrar un chip que representa una opción seleccionable.',
+    description:
+        'Sirve para mostrar un chip que representa una opción seleccionable.',
     route: '/filter_chip',
   ),
   WidgetBody(
     title: 'Flutter FittedBox Widget',
-    description: 'Sirve para escalar y alinear un widget hijo dentro de su contenedor.',
+    description:
+        'Sirve para escalar y alinear un widget hijo dentro de su contenedor.',
     route: '/fitted_box',
   ),
   WidgetBody(
     title: 'Flutter Flexible Widget',
-    description: 'Sirve para ajustar el tamaño de un widget hijo dentro de un Row, Column o Flex.',
+    description:
+        'Sirve para ajustar el tamaño de un widget hijo dentro de un Row, Column o Flex.',
     route: '/flexible',
   ),
   WidgetBody(
@@ -526,7 +536,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter Flow Widget',
-    description: 'Sirve para organizar widgets en un patrón de flujo personalizado.',
+    description:
+        'Sirve para organizar widgets en un patrón de flujo personalizado.',
     route: '/flow',
   ),
   WidgetBody(
@@ -536,22 +547,113 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter Form Widget',
-    description: 'Sirve como contenedor para agrupar y validar campos de entrada.',
+    description:
+        'Sirve como contenedor para agrupar y validar campos de entrada.',
     route: '/form',
   ),
   WidgetBody(
     title: 'Flutter FractionallySizedBox Widget',
-    description: 'Sirve para ajustar el tamaño de un widget hijo en función de fracciones del contenedor.',
+    description:
+        'Sirve para ajustar el tamaño de un widget hijo en función de fracciones del contenedor.',
     route: '/fractionally_sized_box',
   ),
   WidgetBody(
     title: 'Flutter FractionalTranslation Widget',
-    description: 'Sirve para mover un widget hijo en función de fracciones de su tamaño.',
+    description:
+        'Sirve para mover un widget hijo en función de fracciones de su tamaño.',
     route: '/fractional_translation',
   ),
   WidgetBody(
     title: 'Flutter FutureBuilder Widget',
-    description: 'Sirve para construir widgets basados en el resultado de un Future.',
+    description:
+        'Sirve para construir widgets basados en el resultado de un Future.',
     route: '/future_builder',
+  ),
+  WidgetBody(
+    title: 'Flutter GestureDetector Widget',
+    description:
+        'Sirve para detectar gestos como toques, deslizamientos y más.',
+    route: '/gesture_detector',
+  ),
+  WidgetBody(
+    title: 'Flutter GridPaper Widget',
+    description:
+        'Sirve para mostrar un fondo de cuadrícula para propósitos de diseño.',
+    route: '/grid_paper',
+  ),
+  WidgetBody(
+    title: 'Flutter GridTile Widget',
+    description: 'Sirve para representar un elemento dentro de un GridView.',
+    route: '/grid_tile',
+  ),
+  WidgetBody(
+    title: 'Flutter GridTileBar Widget',
+    description:
+        'Sirve para mostrar una barra de título y subtítulo en un GridTile.',
+    route: '/grid_tile_bar',
+  ),
+  WidgetBody(
+    title: 'Flutter GridView Widget',
+    description: 'Sirve para mostrar una lista de widgets en una cuadrícula.',
+    route: '/grid_view',
+  ),
+  WidgetBody(
+    title: 'Flutter Hero Widget',
+    description:
+        'Sirve para animar la transición de un widget entre pantallas.',
+    route: '/hero',
+  ),
+  WidgetBody(
+    title: 'Flutter Icon Widget',
+    description: 'Sirve para mostrar un icono en la pantalla.',
+    route: '/icon',
+  ),
+  WidgetBody(
+    title: 'Flutter IconButton Widget',
+    description:
+        'Sirve para mostrar un botón con un icono que responde a interacciones.',
+    route: '/icon_button',
+  ),
+  WidgetBody(
+    title: 'Flutter IgnorePointer Widget',
+    description:
+        'Sirve para ignorar las interacciones del usuario con un widget y sus hijos.',
+    route: '/ignore_pointer',
+  ),
+  WidgetBody(
+    title: 'Flutter Image Widget',
+    description:
+        'Sirve para mostrar imágenes en la pantalla desde diferentes fuentes.',
+    route: '/image',
+  ),
+  WidgetBody(
+    title: 'Flutter IndexedStack Widget',
+    description:
+        'Sirve para mostrar solo un widget hijo a la vez basado en un índice.',
+    route: '/indexed_stack',
+  ),
+  WidgetBody(
+    title: 'Flutter InkWell Widget',
+    description:
+        'Sirve para detectar toques y mostrar efectos visuales como ondas.',
+    route: '/inkwell',
+  ),
+  WidgetBody(
+    title: 'Flutter InputChip Widget',
+    description:
+        'Sirve para mostrar un chip que puede contener texto, un avatar o una acción.',
+    route: '/input_chip',
+  ),
+  WidgetBody(
+    title: 'Flutter InteractiveViewer Widget',
+    description:
+        'Sirve para interactuar con widgets mediante gestos como zoom y desplazamiento.',
+    route: '/interactive_viewer',
+  ),
+  WidgetBody(
+    title: 'Flutter LayoutBuilder Widget',
+    description:
+        'Sirve para construir un widget basado en las restricciones de diseño de su contenedor.',
+    route: '/layout_builder',
   ),
 ];

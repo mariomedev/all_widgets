@@ -123,3 +123,18 @@ flutter:
     - lib/presentation/widgets/fractionaltranslation/
     - lib/presentation/widgets/futurebuilder/
     - lib/presentation/widgets/fractionallysizedbox/
+    - lib/presentation/widgets/gesturedetector/
+    - lib/presentation/widgets/gridpaper/
+    - lib/presentation/widgets/gridtile/
+    - lib/presentation/widgets/gridtilebar/
+    - lib/presentation/widgets/gridview/
+    - lib/presentation/widgets/hero/
+    - lib/presentation/widgets/icon/
+    - lib/presentation/widgets/iconbutton/
+    - lib/presentation/widgets/ignorepointer/
+    - lib/presentation/widgets/image/
+    - lib/presentation/widgets/indexedstack/
+    - lib/presentation/widgets/inkwell/
+    - lib/presentation/widgets/inputchip/
+    - lib/presentation/widgets/interactiveviewer/
+    - lib/presentation/widgets/layoutbuilder/

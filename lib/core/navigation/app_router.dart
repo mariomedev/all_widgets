@@ -1,3 +1,4 @@
+import 'package:all_widgets/presentation/widgets/hero/hero_code.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../presentation/screens/screens.dart';
@@ -413,6 +414,71 @@ final routes = GoRouter(
     GoRoute(
       path: '/fractionally_sized_box',
       builder: (context, state) => FractionallySizedBoxWidget(),
+    ),
+
+    GoRoute(
+      path: '/gesture_detector',
+      builder: (context, state) => GestureDetectorWidget(),
+    ),
+    GoRoute(
+      path: '/grid_paper',
+      builder: (context, state) => GridPaperWidget(),
+    ),
+    GoRoute(
+      path: '/grid_tile',
+      builder: (context, state) => GridTileWidget(),
+    ),
+    GoRoute(
+      path: '/grid_tile_bar',
+      builder: (context, state) => GridTileBarWidget(),
+    ),
+    GoRoute(
+      path: '/grid_view',
+      builder: (context, state) => GridViewWidget(),
+    ),
+    GoRoute(
+      path: '/hero',
+      builder: (context, state) => HeroWidget(),
+    ),
+    GoRoute(
+      path: '/hero_second_page',
+      builder: (context, state) => SecondPage(),
+    ),
+    GoRoute(
+      path: '/icon',
+      builder: (context, state) => IconWidget(),
+    ),
+    GoRoute(
+      path: '/icon_button',
+      builder: (context, state) => IconButtonWidget(),
+    ),
+    GoRoute(
+      path: '/ignore_pointer',
+      builder: (context, state) => IgnorePointerWidget(),
+    ),
+    GoRoute(
+      path: '/image',
+      builder: (context, state) => ImageWidget(),
+    ),
+    GoRoute(
+      path: '/indexed_stack',
+      builder: (context, state) => IndexedStackWidget(),
+    ),
+    GoRoute(
+      path: '/inkwell',
+      builder: (context, state) => InkWellWidget(),
+    ),
+    GoRoute(
+      path: '/input_chip',
+      builder: (context, state) => InputChipWidget(),
+    ),
+    GoRoute(
+      path: '/interactive_viewer',
+      builder: (context, state) => InteractiveViewerWidget(),
+    ),
+    GoRoute(
+      path: '/layout_builder',
+      builder: (context, state) => LayoutBuilderWidget(),
     ),
   ],
 );
