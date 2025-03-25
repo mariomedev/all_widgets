@@ -138,3 +138,14 @@ flutter:
     - lib/presentation/widgets/inputchip/
     - lib/presentation/widgets/interactiveviewer/
     - lib/presentation/widgets/layoutbuilder/
+    - lib/presentation/widgets/limitedbox/
+    - lib/presentation/widgets/linearprogressindicator/
+    - lib/presentation/widgets/listener/
+    - lib/presentation/widgets/listtile/
+    - lib/presentation/widgets/listview/
+    - lib/presentation/widgets/listwheelscrollview/
+    - lib/presentation/widgets/longpressdraggable/
+    - lib/presentation/widgets/materialapp/
+    - lib/presentation/widgets/materialbanner/
+    - lib/presentation/widgets/materialbutton/
+    

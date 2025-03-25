@@ -13,647 +13,642 @@ class WidgetBody {
 final List<WidgetBody> widgets = [
   WidgetBody(
     title: 'Flutter AboutDialog Widget',
-    description:
-        'Sirve para mostrar un dialogo con información sobre la aplicación.',
+    description: 'Shows a dialog with information about the application.',
     route: '/about_dialog',
   ),
   WidgetBody(
     title: 'Flutter AboutListTile Widget',
-    description:
-        'Sirve para mostrar un dialogo con información sobre la aplicación.',
+    description: 'Shows a dialog with information about the application.',
     route: '/about_list_tile',
   ),
   WidgetBody(
     title: 'Flutter AbsorbPointer Widget',
-    description:
-        'Sirve para deshabilitar la interacción con un widget y sus hijos.',
+    description: 'Disables interaction with a widget and its children.',
     route: '/absorb_pointer',
   ),
   WidgetBody(
     title: 'Flutter AlertDialog Widget',
-    description:
-        'Sirve para mostrar un dialogo con información sobre la aplicación.',
+    description: 'Shows a dialog with information about the application.',
     route: '/alert_dialog',
   ),
   WidgetBody(
     title: 'Flutter Aling Widget',
-    description: 'Sirve para alinear un widget en la pantalla.',
+    description: 'Aligns a widget on the screen.',
     route: '/aling',
   ),
   WidgetBody(
     title: 'Flutter AnimatedAlign Widget',
-    description: 'Sirve para alinear un widget en la pantalla con animación.',
+    description: 'Aligns a widget on the screen with animation.',
     route: '/animated_align',
   ),
   WidgetBody(
     title: 'Flutter AnimatedBuilder Widget',
-    description: 'Sirve para construir un widget con animación.',
+    description: 'Builds a widget with animation.',
     route: '/animated_builder',
   ),
   WidgetBody(
     title: 'Flutter AnimatedContainer Widget',
-    description: 'Sirve para construir un contenedor con animación.',
+    description: 'Builds a container with animation.',
     route: '/animated_container',
   ),
   WidgetBody(
     title: 'Flutter AnimatedCrossFade Widget',
-    description:
-        'Sirve para realizar una transición suave de fade entre dos widgets, '
-        'permitiendo cambiar visualmente entre ellos de manera fluida.',
+    description: 'Performs a smooth fade transition between two widgets, allowing for a visually fluid change.',
     route: '/animated_cross_fade',
   ),
   WidgetBody(
     title: 'Flutter AnimatedDefaultTextStyle Widget',
-    description:
-        'Sirve para animar los cambios en el estilo de texto predeterminado de sus hijos.',
+    description: 'Animates changes in the default text style of its children.',
     route: '/animated_default_text_style',
   ),
   WidgetBody(
     title: 'Flutter AnimatedIcon Widget',
-    description:
-        'Sirve para animar un icono entre dos estados visuales diferentes.',
+    description: 'Animates an icon between two different visual states.',
     route: '/animated_icon',
   ),
   WidgetBody(
     title: 'Flutter AnimatedList Widget',
-    description:
-        'Sirve para crear una lista que puede animar la inserción y eliminación de elementos.',
+    description: 'Creates a list that can animate the insertion and removal of items.',
     route: '/animated_list',
   ),
   WidgetBody(
     title: 'Flutter AnimatedModalBarrier Widget',
-    description:
-        'Sirve para crear una barrera modal animada que bloquea la interacción con los widgets detrás de ella.',
+    description: 'Creates an animated modal barrier that blocks interaction with widgets behind it.',
     route: '/animated_modal_barrier',
   ),
   WidgetBody(
     title: 'Flutter AnimatedOpacity Widget',
-    description: 'Sirve para animar los cambios en la opacidad de un widget.',
+    description: 'Animates changes in the opacity of a widget.',
     route: '/animated_opacity',
   ),
   WidgetBody(
     title: 'Flutter AnimatedPadding Widget',
-    description: 'Sirve para animar los cambios en el padding de un widget.',
+    description: 'Animates changes in the padding of a widget.',
     route: '/animated_padding',
   ),
   WidgetBody(
     title: 'Flutter AnimatedPhysicalModel Widget',
-    description:
-        'Sirve para animar los cambios en las propiedades físicas de un widget, como la elevación, el color y la forma.',
+    description: 'Animates changes in the physical properties of a widget, such as elevation, color, and shape.',
     route: '/animated_physical_model',
   ),
   WidgetBody(
     title: 'Flutter AnimatedPositioned Widget',
-    description:
-        'Sirve para animar los cambios en la posición de un widget dentro de un Stack.',
+    description: 'Animates changes in the position of a widget within a Stack.',
     route: '/animated_positioned',
   ),
   WidgetBody(
     title: 'Flutter AnimatedRotation Widget',
-    description: 'Sirve para animar los cambios en la rotación de un widget.',
+    description: 'Animates changes in the rotation of a widget.',
     route: '/animated_rotation',
   ),
   WidgetBody(
     title: 'Flutter AnimatedSize Widget',
-    description: 'Sirve para animar los cambios de tamaño de un widget.',
+    description: 'Animates changes in the size of a widget.',
     route: '/animated_size',
   ),
   WidgetBody(
     title: 'Flutter AnimatedSwitcher Widget',
-    description:
-        'Sirve para animar los cambios de un widget hijo de un AnimatedSwitcher.',
+    description: 'Animates changes in a child widget of an AnimatedSwitcher.',
     route: '/animated_switcher',
   ),
   WidgetBody(
     title: 'Flutter AppBar Widget',
-    description:
-        'Sirve para mostrar una barra de aplicación en la parte superior de la pantalla.',
+    description: 'Displays an application bar at the top of the screen.',
     route: '/app_bar',
   ),
   WidgetBody(
     title: 'Flutter AspectRatio Widget',
-    description: 'Sirve para ajustar la relación de aspecto de un widget hijo.',
+    description: 'Adjusts the aspect ratio of a child widget.',
     route: '/aspect_ratio',
   ),
   WidgetBody(
     title: 'Flutter AutoCompleate Widget',
-    description:
-        'Sirve para mostrar una lista de sugerencias mientras el usuario escribe.',
+    description: 'Displays a list of suggestions as the user types.',
     route: '/auto_compleate',
   ),
   WidgetBody(
     title: 'Flutter BackDropFilter Widget',
-    description: 'Sirve para aplicar un filtro a los hijos de un widget.',
+    description: 'Applies a filter to the children of a widget.',
     route: '/back_drop_filter',
   ),
   WidgetBody(
     title: 'Flutter Banner Widget',
-    description: 'Sirve para mostrar un banner en una esquina de la pantalla.',
+    description: 'Displays a banner in a corner of the screen.',
     route: '/banner',
   ),
   WidgetBody(
     title: 'Flutter BaseLine Widget',
-    description:
-        'Sirve para alinear los widgets de línea base de texto en una fila.',
+    description: 'Aligns text baseline widgets in a row.',
     route: '/base_line',
   ),
   WidgetBody(
     title: 'Flutter BlockSemantics Widget',
-    description:
-        'Sirve para deshabilitar la interacción con un widget y sus hijos.',
+    description: 'Disables interaction with a widget and its children.',
     route: '/block_semantics',
   ),
   WidgetBody(
     title: 'Flutter BottomNavigationBar Widget',
-    description:
-        'Sirve para mostrar una barra de navegación en la parte inferior de la pantalla.',
+    description: 'Displays a navigation bar at the bottom of the screen.',
     route: '/bottom_navigation_bar',
   ),
   WidgetBody(
     title: 'Flutter BottomSheet Widget',
-    description:
-        'Sirve para mostrar un panel en la parte inferior de la pantalla.',
+    description: 'Displays a panel at the bottom of the screen.',
     route: '/bottom_sheet',
   ),
   WidgetBody(
     title: 'Flutter Builder Widget',
-    description: 'Sirve para construir un widget con animación.',
+    description: 'Builds a widget with animation.',
     route: '/builder',
   ),
   WidgetBody(
     title: 'Flutter Card Widget',
-    description:
-        'Sirve para mostrar un widget con sombra y esquinas redondeadas.',
+    description: 'Displays a widget with shadow and rounded corners.',
     route: '/card',
   ),
   WidgetBody(
     title: 'Flutter Center Widget',
-    description: 'Sirve para alinear un widget en el centro de la pantalla.',
+    description: 'Aligns a widget in the center of the screen.',
     route: '/center',
   ),
   WidgetBody(
     title: 'Flutter Checkbox Widget',
-    description: 'Sirve para mostrar un checkbox en la pantalla.',
+    description: 'Displays a checkbox on the screen.',
     route: '/checkbox',
   ),
   WidgetBody(
     title: 'Flutter CheckboxListTile Widget',
-    description: 'Sirve para mostrar una lista de elementos con un checkbox.',
+    description: 'Displays a list of items with a checkbox.',
     route: '/checkbox_list_tile',
   ),
   WidgetBody(
     title: 'Flutter Chip Widget',
-    description: 'Muestra un chip en la pantalla con un avatar y un label.',
+    description: 'Displays a chip with an avatar and a label.',
     route: '/chip',
   ),
   WidgetBody(
     title: 'Flutter ChoiceChip Widget',
-    description: 'Muestra un chip en la pantalla con un avatar y un label.',
+    description: 'Displays a chip with an avatar and a label.',
     route: '/choicechip',
   ),
   WidgetBody(
     title: 'Flutter Circleavatar Widget',
-    description: 'Sirve para mostrar un avatar circular.',
+    description: 'Displays a circular avatar.',
     route: '/circleavatar',
   ),
   WidgetBody(
     title: 'Flutter CircularProgressIndicator Widget',
-    description: 'Sirve para mostrar un indicador de progreso circular.',
+    description: 'Displays a circular progress indicator.',
     route: '/circular_progress_indicator',
   ),
   WidgetBody(
     title: 'Flutter ClipOval Widget',
-    description: 'Sirve para recortar un widget en forma ovalada.',
+    description: 'Clips a widget into an oval shape.',
     route: '/clipoval',
   ),
   WidgetBody(
     title: 'Flutter ClipPath Widget',
-    description:
-        'Sirve para recortar un widget utilizando una ruta personalizada.',
+    description: 'Clips a widget using a custom path.',
     route: '/clippath',
   ),
   WidgetBody(
     title: 'Flutter ClipRect Widget',
-    description: 'Sirve para recortar un widget en forma rectangular.',
+    description: 'Clips a widget into a rectangular shape.',
     route: '/cliprect',
   ),
   WidgetBody(
     title: 'Flutter ClipRRect Widget',
-    description:
-        'Sirve para recortar un widget en forma rectangular con bordes redondeados.',
+    description: 'Clips a widget into a rectangular shape with rounded corners.',
     route: '/cliprrect',
   ),
   WidgetBody(
     title: 'Flutter CloseButton Widget',
-    description: 'Sirve para mostrar un botón de cierre estándar.',
+    description: 'Displays a standard close button.',
     route: '/close_button',
   ),
   WidgetBody(
     title: 'Flutter ColoredBox Widget',
-    description: 'Sirve para pintar un cuadro con un color específico.',
+    description: 'Paints a box with a specific color.',
     route: '/colored_box',
   ),
   WidgetBody(
     title: 'Flutter ColorFiltered Widget',
-    description: 'Sirve para aplicar un filtro de color a su widget hijo.',
+    description: 'Applies a color filter to its child widget.',
     route: '/color_filtered',
   ),
   WidgetBody(
     title: 'Flutter ConstrainedBox Widget',
-    description:
-        'Sirve para imponer restricciones adicionales a su widget hijo.',
+    description: 'Imposes additional constraints on its child widget.',
     route: '/constrained_box',
   ),
   WidgetBody(
     title: 'Flutter Container Widget',
-    description:
-        'Sirve como un contenedor general con propiedades como padding, margin, color, etc.',
+    description: 'A general container with properties like padding, margin, color, etc.',
     route: '/container',
   ),
   WidgetBody(
     title: 'Flutter Column Widget',
-    description: 'Sirve para alinear widgets en una columna vertical.',
+    description: 'Aligns widgets in a vertical column.',
     route: '/column',
   ),
   WidgetBody(
     title: 'Flutter CupertinoActionSheetAction Widget',
-    description: 'Sirve para mostrar una acción en un CupertinoActionSheet.',
+    description: 'Displays an action in a CupertinoActionSheet.',
     route: '/cupertino_action_sheet_action',
   ),
   WidgetBody(
     title: 'Flutter CupertinoApp Widget',
-    description:
-        'Sirve como el contenedor principal para una aplicación estilo iOS.',
+    description: 'The main container for an iOS-style application.',
     route: '/cupertino_app',
   ),
   WidgetBody(
     title: 'Flutter cupertinoactivityindicator Widget',
-    description: 'Sirve para mostrar un indicador de actividad estilo iOS.',
+    description: 'Displays an iOS-style activity indicator.',
     route: '/cupertino_activity_indicator',
   ),
   WidgetBody(
     title: 'Flutter cupertinoalertdialog Widget',
-    description:
-        'Sirve para mostrar un cuadro de diálogo de alerta estilo iOS.',
+    description: 'Displays an iOS-style alert dialog.',
     route: '/cupertino_alert_dialog',
   ),
   WidgetBody(
     title: 'Flutter cupertinobutton Widget',
-    description: 'Sirve para mostrar un botón estilo iOS.',
+    description: 'Displays an iOS-style button.',
     route: '/cupertino_button',
   ),
   WidgetBody(
     title: 'Flutter cupertinocontextmenu Widget',
-    description: 'Sirve para mostrar un menú contextual estilo iOS.',
+    description: 'Displays an iOS-style context menu.',
     route: '/cupertino_context_menu',
   ),
   WidgetBody(
     title: 'Flutter cupertinodatepicker Widget',
-    description: 'Sirve para mostrar un selector de fecha estilo iOS.',
+    description: 'Displays an iOS-style date picker.',
     route: '/cupertino_date_picker',
   ),
   WidgetBody(
     title: 'Flutter cupertinopageroute Widget',
-    description: 'Sirve para crear una ruta de página estilo iOS.',
+    description: 'Creates an iOS-style page route.',
     route: '/cupertino_page_route',
   ),
   WidgetBody(
     title: 'Flutter cupertinopagescaffold Widget',
-    description:
-        'Sirve como un contenedor principal para una página estilo iOS.',
+    description: 'The main container for an iOS-style page.',
     route: '/cupertino_page_scaffold',
   ),
   WidgetBody(
     title: 'Flutter CupertinoPicker Widget',
-    description: 'Sirve para mostrar un selector estilo iOS.',
+    description: 'Displays an iOS-style picker.',
     route: '/cupertino_picker',
   ),
   WidgetBody(
     title: 'Flutter CupertinoPopupSurface Widget',
-    description: 'Sirve para mostrar una superficie emergente estilo iOS.',
+    description: 'Displays an iOS-style popup surface.',
     route: '/cupertino_pop_up_surface',
   ),
   WidgetBody(
     title: 'Flutter CupertinoScrollbar Widget',
-    description: 'Sirve para mostrar una barra de desplazamiento estilo iOS.',
+    description: 'Displays an iOS-style scrollbar.',
     route: '/cupertino_scrollbar',
   ),
   WidgetBody(
     title: 'Flutter CupertinoSearchTextField Widget',
-    description: 'Sirve para mostrar un campo de texto de búsqueda estilo iOS.',
+    description: 'Displays an iOS-style search text field.',
     route: '/cupertino_search_text_field',
   ),
   WidgetBody(
     title: 'Flutter CupertinoSegmentedControl Widget',
-    description: 'Sirve para mostrar un control segmentado estilo iOS.',
+    description: 'Displays an iOS-style segmented control.',
     route: '/cupertino_segmented_control',
   ),
   WidgetBody(
     title: 'Flutter CupertinoSlider Widget',
-    description: 'Sirve para mostrar un control deslizante estilo iOS.',
+    description: 'Displays an iOS-style slider.',
     route: '/cupertino_slider',
   ),
   WidgetBody(
     title: 'Flutter CupertinoSlidingSegmentedControl Widget',
-    description:
-        'Sirve para mostrar un control segmentado deslizante estilo iOS.',
+    description: 'Displays an iOS-style sliding segmented control.',
     route: '/cupertino_sliding_segmented_control',
   ),
   WidgetBody(
     title: 'Flutter CupertinoSwitch Widget',
-    description: 'Sirve para mostrar un interruptor estilo iOS.',
+    description: 'Displays an iOS-style switch.',
     route: '/cupertino_switch',
   ),
   WidgetBody(
     title: 'Flutter CupertinoTabScaffold Widget',
-    description: 'Sirve para mostrar una estructura de pestañas estilo iOS.',
+    description: 'Displays an iOS-style tab scaffold.',
     route: '/cupertino_tab_scaffold',
   ),
   WidgetBody(
     title: 'Flutter CupertinoTextField Widget',
-    description: 'Sirve para mostrar un campo de texto estilo iOS.',
+    description: 'Displays an iOS-style text field.',
     route: '/cupertino_text_field',
   ),
   WidgetBody(
     title: 'Flutter CustomPaint Widget',
-    description: 'Sirve para realizar dibujos personalizados en el canvas.',
+    description: 'Performs custom painting on the canvas.',
     route: '/custom_paint',
   ),
   WidgetBody(
     title: 'Flutter CustomScrollView Widget',
-    description: 'Sirve para crear una vista de desplazamiento personalizada.',
+    description: 'Creates a custom scrollable view.',
     route: '/custom_scroll_view',
   ),
   WidgetBody(
     title: 'Flutter DataTable Widget',
-    description: 'Sirve para mostrar datos en una tabla.',
+    description: 'Displays data in a table.',
     route: '/data_table',
   ),
   WidgetBody(
     title: 'Flutter DatePicker Widget',
-    description: 'Sirve para seleccionar una fecha.',
+    description: 'Selects a date.',
     route: '/date_picker',
   ),
   WidgetBody(
     title: 'Flutter DateRangePicker Widget',
-    description: 'Sirve para seleccionar un rango de fechas.',
+    description: 'Selects a range of dates.',
     route: '/date_range_picker',
   ),
   WidgetBody(
     title: 'Flutter DecoratedBox Widget',
-    description: 'Sirve para decorar un widget hijo con bordes, sombras, etc.',
+    description: 'Decorates a child widget with borders, shadows, etc.',
     route: '/decorated_box',
   ),
   WidgetBody(
     title: 'Flutter DecoratedBoxTransition Widget',
-    description: 'Sirve para animar los cambios en la decoración de un widget.',
+    description: 'Animates changes in the decoration of a widget.',
     route: '/decorated_box_transition',
   ),
   WidgetBody(
     title: 'Flutter DefaultTextStyle Widget',
-    description:
-        'Sirve para definir un estilo de texto predeterminado para sus hijos.',
+    description: 'Defines a default text style for its children.',
     route: '/default_text_style',
   ),
   WidgetBody(
     title: 'Flutter Dismissible Widget',
-    description:
-        'Sirve para deslizar un widget y realizar una acción, como eliminarlo.',
+    description: 'Swipes a widget to perform an action, such as deleting it.',
     route: '/dismissible',
   ),
   WidgetBody(
     title: 'Flutter Divider Widget',
-    description: 'Sirve para mostrar una línea divisoria horizontal.',
+    description: 'Displays a horizontal dividing line.',
     route: '/divider',
   ),
   WidgetBody(
     title: 'Flutter Draggable Widget',
-    description: 'Sirve para hacer que un widget sea arrastrable.',
+    description: 'Makes a widget draggable.',
     route: '/draggable',
   ),
   WidgetBody(
     title: 'Flutter DraggableScrollable Widget',
-    description:
-        'Sirve para crear un contenedor desplazable que se puede arrastrar.',
+    description: 'Creates a scrollable container that can be dragged.',
     route: '/draggable_scrollable',
   ),
   WidgetBody(
     title: 'Flutter DragTarget Widget',
-    description: 'Sirve como un objetivo para widgets arrastrables.',
+    description: 'A target for draggable widgets.',
     route: '/drag_target',
   ),
   WidgetBody(
     title: 'Flutter Drawer Widget',
-    description: 'Sirve para mostrar un menú lateral deslizable.',
+    description: 'Displays a slide-in side menu.',
     route: '/drawer',
   ),
   WidgetBody(
     title: 'Flutter DrawerHeader Widget',
-    description: 'Sirve para mostrar un encabezado dentro de un Drawer.',
+    description: 'Displays a header inside a Drawer.',
     route: '/drawer_header',
   ),
   WidgetBody(
     title: 'Flutter DropdownButton Widget',
-    description: 'Sirve para mostrar un botón desplegable con opciones.',
+    description: 'Displays a dropdown button with options.',
     route: '/drop_down_button',
   ),
   WidgetBody(
     title: 'Flutter ElevatedButton Widget',
-    description: 'Sirve para mostrar un botón elevado.',
+    description: 'Displays an elevated button.',
     route: '/elevated_button',
   ),
   WidgetBody(
     title: 'Flutter Error Widget',
-    description:
-        'Sirve para mostrar un widget de error cuando ocurre un problema.',
+    description: 'Displays an error widget when a problem occurs.',
     route: '/error',
   ),
   WidgetBody(
     title: 'Flutter ErrorDetails Widget',
-    description: 'Sirve para proporcionar detalles sobre un error.',
+    description: 'Provides details about an error.',
     route: '/error_details',
   ),
   WidgetBody(
     title: 'Flutter Expanded Widget',
-    description:
-        'Sirve para expandir un widget hijo dentro de un Row, Column o Flex.',
+    description: 'Expands a child widget within a Row, Column, or Flex.',
     route: '/expanded',
   ),
   WidgetBody(
     title: 'Flutter ExpandIcon Widget',
-    description: 'Sirve para mostrar un icono que se expande o colapsa.',
+    description: 'Displays an icon that expands or collapses.',
     route: '/expand_icon',
   ),
   WidgetBody(
     title: 'Flutter ExpansionPanelList Widget',
-    description: 'Sirve para mostrar una lista de paneles expandibles.',
+    description: 'Displays a list of expandable panels.',
     route: '/expansion_panel_list',
   ),
   WidgetBody(
     title: 'Flutter ExpansionPanel Widget',
-    description: 'Sirve para mostrar un panel expandible dentro de una lista.',
+    description: 'Displays an expandable panel within a list.',
     route: '/expansion_panel',
   ),
   WidgetBody(
     title: 'Flutter ExpansionTile Widget',
-    description:
-        'Sirve para mostrar un widget que se expande o colapsa al hacer clic.',
+    description: 'Displays a widget that expands or collapses when clicked.',
     route: '/expansion_tile',
   ),
   WidgetBody(
     title: 'Flutter FadeInImage Widget',
-    description:
-        'Sirve para mostrar una imagen con un efecto de fade al cargar.',
+    description: 'Displays an image with a fade effect when loading.',
     route: '/fade_in_image',
   ),
   WidgetBody(
     title: 'Flutter FadeTransition Widget',
-    description: 'Sirve para animar la opacidad de un widget.',
+    description: 'Animates the opacity of a widget.',
     route: '/fade_transition',
   ),
   WidgetBody(
     title: 'Flutter FilterChip Widget',
-    description:
-        'Sirve para mostrar un chip que representa una opción seleccionable.',
+    description: 'Displays a chip that represents a selectable option.',
     route: '/filter_chip',
   ),
   WidgetBody(
     title: 'Flutter FittedBox Widget',
-    description:
-        'Sirve para escalar y alinear un widget hijo dentro de su contenedor.',
+    description: 'Scales and aligns a child widget within its container.',
     route: '/fitted_box',
   ),
   WidgetBody(
     title: 'Flutter Flexible Widget',
-    description:
-        'Sirve para ajustar el tamaño de un widget hijo dentro de un Row, Column o Flex.',
+    description: 'Adjusts the size of a child widget within a Row, Column, or Flex.',
     route: '/flexible',
   ),
   WidgetBody(
     title: 'Flutter FloatingActionButton Widget',
-    description: 'Sirve para mostrar un botón flotante de acción.',
+    description: 'Displays a floating action button.',
     route: '/floating_action_button',
   ),
   WidgetBody(
     title: 'Flutter Flow Widget',
-    description:
-        'Sirve para organizar widgets en un patrón de flujo personalizado.',
+    description: 'Organizes widgets in a custom flow pattern.',
     route: '/flow',
   ),
   WidgetBody(
     title: 'Flutter FlutterLogo Widget',
-    description: 'Sirve para mostrar el logotipo de Flutter.',
+    description: 'Displays the Flutter logo.',
     route: '/flutter_logo',
   ),
   WidgetBody(
     title: 'Flutter Form Widget',
-    description:
-        'Sirve como contenedor para agrupar y validar campos de entrada.',
+    description: 'A container to group and validate input fields.',
     route: '/form',
   ),
   WidgetBody(
     title: 'Flutter FractionallySizedBox Widget',
-    description:
-        'Sirve para ajustar el tamaño de un widget hijo en función de fracciones del contenedor.',
+    description: 'Adjusts the size of a child widget based on fractions of the container.',
     route: '/fractionally_sized_box',
   ),
   WidgetBody(
     title: 'Flutter FractionalTranslation Widget',
-    description:
-        'Sirve para mover un widget hijo en función de fracciones de su tamaño.',
+    description: 'Moves a child widget based on fractions of its size.',
     route: '/fractional_translation',
   ),
   WidgetBody(
     title: 'Flutter FutureBuilder Widget',
-    description:
-        'Sirve para construir widgets basados en el resultado de un Future.',
+    description: 'Builds widgets based on the result of a Future.',
     route: '/future_builder',
   ),
   WidgetBody(
     title: 'Flutter GestureDetector Widget',
-    description:
-        'Sirve para detectar gestos como toques, deslizamientos y más.',
+    description: 'Detects gestures like taps, swipes, and more.',
     route: '/gesture_detector',
   ),
   WidgetBody(
     title: 'Flutter GridPaper Widget',
-    description:
-        'Sirve para mostrar un fondo de cuadrícula para propósitos de diseño.',
+    description: 'Displays a grid background for design purposes.',
     route: '/grid_paper',
   ),
   WidgetBody(
     title: 'Flutter GridTile Widget',
-    description: 'Sirve para representar un elemento dentro de un GridView.',
+    description: 'Represents an item within a GridView.',
     route: '/grid_tile',
   ),
   WidgetBody(
     title: 'Flutter GridTileBar Widget',
-    description:
-        'Sirve para mostrar una barra de título y subtítulo en un GridTile.',
+    description: 'Displays a title and subtitle bar in a GridTile.',
     route: '/grid_tile_bar',
   ),
   WidgetBody(
     title: 'Flutter GridView Widget',
-    description: 'Sirve para mostrar una lista de widgets en una cuadrícula.',
+    description: 'Displays a list of widgets in a grid.',
     route: '/grid_view',
   ),
   WidgetBody(
     title: 'Flutter Hero Widget',
-    description:
-        'Sirve para animar la transición de un widget entre pantallas.',
+    description: 'Animates the transition of a widget between screens.',
     route: '/hero',
   ),
   WidgetBody(
     title: 'Flutter Icon Widget',
-    description: 'Sirve para mostrar un icono en la pantalla.',
+    description: 'Displays an icon on the screen.',
     route: '/icon',
   ),
   WidgetBody(
     title: 'Flutter IconButton Widget',
-    description:
-        'Sirve para mostrar un botón con un icono que responde a interacciones.',
+    description: 'Displays a button with an icon that responds to interactions.',
     route: '/icon_button',
   ),
   WidgetBody(
     title: 'Flutter IgnorePointer Widget',
-    description:
-        'Sirve para ignorar las interacciones del usuario con un widget y sus hijos.',
+    description: 'Ignores user interactions with a widget and its children.',
     route: '/ignore_pointer',
   ),
   WidgetBody(
     title: 'Flutter Image Widget',
-    description:
-        'Sirve para mostrar imágenes en la pantalla desde diferentes fuentes.',
+    description: 'Displays images on the screen from different sources.',
     route: '/image',
   ),
   WidgetBody(
     title: 'Flutter IndexedStack Widget',
-    description:
-        'Sirve para mostrar solo un widget hijo a la vez basado en un índice.',
+    description: 'Displays only one child widget at a time based on an index.',
     route: '/indexed_stack',
   ),
   WidgetBody(
     title: 'Flutter InkWell Widget',
-    description:
-        'Sirve para detectar toques y mostrar efectos visuales como ondas.',
+    description: 'Detects taps and shows visual effects like ripples.',
     route: '/inkwell',
   ),
   WidgetBody(
     title: 'Flutter InputChip Widget',
-    description:
-        'Sirve para mostrar un chip que puede contener texto, un avatar o una acción.',
+    description: 'Displays a chip that can contain text, an avatar, or an action.',
     route: '/input_chip',
   ),
   WidgetBody(
     title: 'Flutter InteractiveViewer Widget',
-    description:
-        'Sirve para interactuar con widgets mediante gestos como zoom y desplazamiento.',
+    description: 'Interacts with widgets using gestures like zoom and scroll.',
     route: '/interactive_viewer',
   ),
   WidgetBody(
     title: 'Flutter LayoutBuilder Widget',
-    description:
-        'Sirve para construir un widget basado en las restricciones de diseño de su contenedor.',
+    description: 'Builds a widget based on the layout constraints of its container.',
     route: '/layout_builder',
+  ),
+  WidgetBody(
+    title: 'Flutter LimitedBox Widget',
+    description: 'Limits the size of a child widget when it is unconstrained.',
+    route: '/limited_box',
+  ),
+  WidgetBody(
+    title: 'Flutter LinearProgressIndicator Widget',
+    description: 'Displays a linear progress indicator.',
+    route: '/linear_progress_indicator',
+  ),
+  WidgetBody(
+    title: 'Flutter Listener Widget',
+    description: 'Detects pointer events like touches and gestures.',
+    route: '/listener',
+  ),
+  WidgetBody(
+    title: 'Flutter ListTile Widget',
+    description: 'Creates a single fixed-height row that contains text and optional leading or trailing icons.',
+    route: '/list_tile',
+  ),
+  WidgetBody(
+    title: 'Flutter ListView Widget',
+    description: 'Creates a scrollable list of widgets.',
+    route: '/list_view',
+  ),
+  WidgetBody(
+    title: 'Flutter ListWheelScrollView Widget',
+    description: 'Creates a scrollable list that behaves like a spinning wheel.',
+    route: '/list_wheel_scroll_view',
+  ),
+  WidgetBody(
+    title: 'Flutter LongPressDraggable Widget',
+    description: 'Makes a widget draggable after a long press.',
+    route: '/long_press_draggable',
+  ),
+  WidgetBody(
+    title: 'Flutter MaterialApp Widget',
+    description: 'The top-level widget for a Material Design application.',
+    route: '/material_app',
+  ),
+  WidgetBody(
+    title: 'Flutter MaterialBanner Widget',
+    description: 'Displays a banner at the top of the screen with actions.',
+    route: '/material_banner',
+  ),
+  WidgetBody(
+    title: 'Flutter MaterialButton Widget',
+    description: 'Creates a Material Design button.',
+    route: '/material_button',
   ),
 ];

@@ -480,5 +480,45 @@ final routes = GoRouter(
       path: '/layout_builder',
       builder: (context, state) => LayoutBuilderWidget(),
     ),
+    GoRoute(
+      path: '/limited_box',
+      builder: (context, state) => LimitedBoxWidget(),
+    ),
+    GoRoute(
+      path: '/linear_progress_indicator',
+      builder: (context, state) => LinearProgressIndicatorWidget(),
+    ),
+    GoRoute(
+      path: '/listener',
+      builder: (context, state) => ListenerWidget(),
+    ),
+    GoRoute(
+      path: '/list_tile',
+      builder: (context, state) => ListTileWidget(),
+    ),
+    GoRoute(
+      path: '/list_view',
+      builder: (context, state) => ListViewWidget(),
+    ),
+    GoRoute(
+      path: '/list_wheel_scroll_view',
+      builder: (context, state) => ListWheelScrollViewWidget(),
+    ),
+    GoRoute(
+      path: '/long_press_draggable',
+      builder: (context, state) => LongPressDraggableWidget(),
+    ),
+    GoRoute(
+      path: '/material_app',
+      builder: (context, state) => MaterialAppWidget(),
+    ),
+    GoRoute(
+      path: '/material_banner',
+      builder: (context, state) => MaterialBannerWidget(),
+    ),
+    GoRoute(
+      path: '/material_button',
+      builder: (context, state) => MaterialButtonWidget(),
+    ),
   ],
 );
