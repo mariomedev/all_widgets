@@ -415,7 +415,6 @@ final routes = GoRouter(
       path: '/fractionally_sized_box',
       builder: (context, state) => FractionallySizedBoxWidget(),
     ),
-
     GoRoute(
       path: '/gesture_detector',
       builder: (context, state) => GestureDetectorWidget(),
@@ -519,6 +518,62 @@ final routes = GoRouter(
     GoRoute(
       path: '/material_button',
       builder: (context, state) => MaterialButtonWidget(),
+    ),
+    GoRoute(
+      path: '/modal_barrier',
+      builder: (context, state) => ModalBarrierWidget(),
+    ),
+    GoRoute(
+      path: '/mouse_region',
+      builder: (context, state) => MouseRegionWidget(),
+    ),
+    GoRoute(
+      path: '/navigation_bar',
+      builder: (context, state) => NavigationBarWidget(),
+    ),
+    GoRoute(
+      path: '/notification_listener',
+      builder: (context, state) => NotificationListenerWidget(),
+    ),
+    GoRoute(
+      path: '/off_stage',
+      builder: (context, state) => OffStageWidget(),
+    ),
+    GoRoute(
+      path: '/opacity',
+      builder: (context, state) => OpacityWidget(),
+    ),
+    GoRoute(
+      path: '/orientation_builder',
+      builder: (context, state) => OrientationBuilderWidget(),
+    ),
+    GoRoute(
+      path: '/outlined_button',
+      builder: (context, state) => OutlinedButtonWidget(),
+    ),
+    GoRoute(
+      path: '/overflow_bar',
+      builder: (context, state) => OverflowBarWidget(),
+    ),
+    GoRoute(
+      path: '/overflow_box',
+      builder: (context, state) => OverflowBoxWidget(),
+    ),
+    GoRoute(
+      path: '/padding',
+      builder: (context, state) => PaddingWidget(),
+    ),
+    GoRoute(
+      path: '/page_view',
+      builder: (context, state) => PageViewWidget(),
+    ),
+    GoRoute(
+      path: '/physical_model',
+      builder: (context, state) => PhysicalModelWidget(),
+    ),
+    GoRoute(
+      path: '/physical_shape',
+      builder: (context, state) => PhysicalShapeWidget(),
     ),
   ],
 );

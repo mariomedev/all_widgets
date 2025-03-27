@@ -53,7 +53,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter AnimatedCrossFade Widget',
-    description: 'Performs a smooth fade transition between two widgets, allowing for a visually fluid change.',
+    description:
+        'Performs a smooth fade transition between two widgets, allowing for a visually fluid change.',
     route: '/animated_cross_fade',
   ),
   WidgetBody(
@@ -68,12 +69,14 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter AnimatedList Widget',
-    description: 'Creates a list that can animate the insertion and removal of items.',
+    description:
+        'Creates a list that can animate the insertion and removal of items.',
     route: '/animated_list',
   ),
   WidgetBody(
     title: 'Flutter AnimatedModalBarrier Widget',
-    description: 'Creates an animated modal barrier that blocks interaction with widgets behind it.',
+    description:
+        'Creates an animated modal barrier that blocks interaction with widgets behind it.',
     route: '/animated_modal_barrier',
   ),
   WidgetBody(
@@ -88,7 +91,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter AnimatedPhysicalModel Widget',
-    description: 'Animates changes in the physical properties of a widget, such as elevation, color, and shape.',
+    description:
+        'Animates changes in the physical properties of a widget, such as elevation, color, and shape.',
     route: '/animated_physical_model',
   ),
   WidgetBody(
@@ -218,7 +222,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter ClipRRect Widget',
-    description: 'Clips a widget into a rectangular shape with rounded corners.',
+    description:
+        'Clips a widget into a rectangular shape with rounded corners.',
     route: '/cliprrect',
   ),
   WidgetBody(
@@ -243,7 +248,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter Container Widget',
-    description: 'A general container with properties like padding, margin, color, etc.',
+    description:
+        'A general container with properties like padding, margin, color, etc.',
     route: '/container',
   ),
   WidgetBody(
@@ -488,7 +494,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter Flexible Widget',
-    description: 'Adjusts the size of a child widget within a Row, Column, or Flex.',
+    description:
+        'Adjusts the size of a child widget within a Row, Column, or Flex.',
     route: '/flexible',
   ),
   WidgetBody(
@@ -513,7 +520,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter FractionallySizedBox Widget',
-    description: 'Adjusts the size of a child widget based on fractions of the container.',
+    description:
+        'Adjusts the size of a child widget based on fractions of the container.',
     route: '/fractionally_sized_box',
   ),
   WidgetBody(
@@ -563,7 +571,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter IconButton Widget',
-    description: 'Displays a button with an icon that responds to interactions.',
+    description:
+        'Displays a button with an icon that responds to interactions.',
     route: '/icon_button',
   ),
   WidgetBody(
@@ -588,7 +597,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter InputChip Widget',
-    description: 'Displays a chip that can contain text, an avatar, or an action.',
+    description:
+        'Displays a chip that can contain text, an avatar, or an action.',
     route: '/input_chip',
   ),
   WidgetBody(
@@ -598,7 +608,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter LayoutBuilder Widget',
-    description: 'Builds a widget based on the layout constraints of its container.',
+    description:
+        'Builds a widget based on the layout constraints of its container.',
     route: '/layout_builder',
   ),
   WidgetBody(
@@ -618,7 +629,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter ListTile Widget',
-    description: 'Creates a single fixed-height row that contains text and optional leading or trailing icons.',
+    description:
+        'Creates a single fixed-height row that contains text and optional leading or trailing icons.',
     route: '/list_tile',
   ),
   WidgetBody(
@@ -628,7 +640,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter ListWheelScrollView Widget',
-    description: 'Creates a scrollable list that behaves like a spinning wheel.',
+    description:
+        'Creates a scrollable list that behaves like a spinning wheel.',
     route: '/list_wheel_scroll_view',
   ),
   WidgetBody(
@@ -650,5 +663,75 @@ final List<WidgetBody> widgets = [
     title: 'Flutter MaterialButton Widget',
     description: 'Creates a Material Design button.',
     route: '/material_button',
+  ),
+  WidgetBody(
+    title: 'Flutter ModalBarrier Widget',
+    description: 'Creates a barrier that prevents user interaction with widgets behind it.',
+    route: '/modal_barrier',
+  ),
+  WidgetBody(
+    title: 'Flutter MouseRegion Widget',
+    description: 'Detects when a mouse pointer enters, exits, or hovers over a widget.',
+    route: '/mouse_region',
+  ),
+  WidgetBody(
+    title: 'Flutter NavigationBar Widget',
+    description: 'Displays a navigation bar at the bottom of the screen.',
+    route: '/navigation_bar',
+  ),
+  WidgetBody(
+    title: 'Flutter NotificationListener Widget',
+    description: 'Listens for notifications bubbling up the widget tree.',
+    route: '/notification_listener',
+  ),
+  WidgetBody(
+    title: 'Flutter OffStage Widget',
+    description: 'Hides a widget from the screen while keeping it in the widget tree.',
+    route: '/off_stage',
+  ),
+  WidgetBody(
+    title: 'Flutter Opacity Widget',
+    description: 'Adjusts the opacity of a child widget.',
+    route: '/opacity',
+  ),
+  WidgetBody(
+    title: 'Flutter OrientationBuilder Widget',
+    description: 'Builds a widget tree based on the orientation of the device.',
+    route: '/orientation_builder',
+  ),
+  WidgetBody(
+    title: 'Flutter OutlinedButton Widget',
+    description: 'Displays a button with an outlined border.',
+    route: '/outlined_button',
+  ),
+  WidgetBody(
+    title: 'Flutter OverflowBar Widget',
+    description: 'Displays a horizontal bar that wraps its children into a new row if necessary.',
+    route: '/overflow_bar',
+  ),
+  WidgetBody(
+    title: 'Flutter OverflowBox Widget',
+    description: 'Allows a child widget to overflow its parent\'s constraints.',
+    route: '/overflow_box',
+  ),
+  WidgetBody(
+    title: 'Flutter Padding Widget',
+    description: 'Adds padding around a child widget.',
+    route: '/padding',
+  ),
+  WidgetBody(
+    title: 'Flutter PageView Widget',
+    description: 'Creates a scrollable list of pages that can be swiped horizontally.',
+    route: '/page_view',
+  ),
+  WidgetBody(
+    title: 'Flutter PhysicalModel Widget',
+    description: 'Creates a widget with physical properties like elevation and shadow.',
+    route: '/physical_model',
+  ),
+  WidgetBody(
+    title: 'Flutter PhysicalShape Widget',
+    description: 'Creates a widget with a custom shape and physical properties.',
+    route: '/physical_shape',
   ),
 ];

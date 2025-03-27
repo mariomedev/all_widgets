@@ -148,4 +148,18 @@ flutter:
     - lib/presentation/widgets/materialapp/
     - lib/presentation/widgets/materialbanner/
     - lib/presentation/widgets/materialbutton/
+    - lib/presentation/widgets/modalbarrier/
+    - lib/presentation/widgets/mouseregion/
+    - lib/presentation/widgets/navigationbar/
+    - lib/presentation/widgets/notificationlistener/
+    - lib/presentation/widgets/offstage/
+    - lib/presentation/widgets/opacity/
+    - lib/presentation/widgets/orientationbuilder/
+    - lib/presentation/widgets/outlinedbutton/
+    - lib/presentation/widgets/overflowbar/
+    - lib/presentation/widgets/overflowbox/
+    - lib/presentation/widgets/padding/
+    - lib/presentation/widgets/pageview/
+    - lib/presentation/widgets/physicalmodel/
+    - lib/presentation/widgets/physicalshape/
     
