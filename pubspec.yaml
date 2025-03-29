@@ -162,4 +162,33 @@ flutter:
     - lib/presentation/widgets/pageview/
     - lib/presentation/widgets/physicalmodel/
     - lib/presentation/widgets/physicalshape/
-    
+    - lib/presentation/widgets/placeholder/
+    - lib/presentation/widgets/platformmenubar/
+    - lib/presentation/widgets/popupmenubutton/
+    - lib/presentation/widgets/positioned/
+    - lib/presentation/widgets/positionedtransition/
+    - lib/presentation/widgets/preferredsize/
+    - lib/presentation/widgets/radio/
+    - lib/presentation/widgets/radiolisttile/
+    - lib/presentation/widgets/rangeslider/
+    - lib/presentation/widgets/rawautocomplete/
+    - lib/presentation/widgets/rawchip/
+    - lib/presentation/widgets/refreshindicator/
+    - lib/presentation/widgets/reorderablelistview/
+    - lib/presentation/widgets/richtext/
+    - lib/presentation/widgets/rotatedbox/
+    - lib/presentation/widgets/rotationtransition/
+    - lib/presentation/widgets/row/
+    - lib/presentation/widgets/safearea/
+    - lib/presentation/widgets/scaffold/
+    - lib/presentation/widgets/scaletransition/
+    - lib/presentation/widgets/scrollbar/
+    - lib/presentation/widgets/selectabletext/
+    - lib/presentation/widgets/semantics/
+    - lib/presentation/widgets/shadermask/
+    - lib/presentation/widgets/shortcuts/
+    - lib/presentation/widgets/simpledialog/
+    - lib/presentation/widgets/singlechildscrollview/
+    - lib/presentation/widgets/sizedbox/
+    - lib/presentation/widgets/sizedoverflowbox/
+    - lib/presentation/widgets/slidetransition/

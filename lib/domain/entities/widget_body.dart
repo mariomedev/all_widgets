@@ -666,12 +666,14 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter ModalBarrier Widget',
-    description: 'Creates a barrier that prevents user interaction with widgets behind it.',
+    description:
+        'Creates a barrier that prevents user interaction with widgets behind it.',
     route: '/modal_barrier',
   ),
   WidgetBody(
     title: 'Flutter MouseRegion Widget',
-    description: 'Detects when a mouse pointer enters, exits, or hovers over a widget.',
+    description:
+        'Detects when a mouse pointer enters, exits, or hovers over a widget.',
     route: '/mouse_region',
   ),
   WidgetBody(
@@ -686,7 +688,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter OffStage Widget',
-    description: 'Hides a widget from the screen while keeping it in the widget tree.',
+    description:
+        'Hides a widget from the screen while keeping it in the widget tree.',
     route: '/off_stage',
   ),
   WidgetBody(
@@ -706,7 +709,8 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter OverflowBar Widget',
-    description: 'Displays a horizontal bar that wraps its children into a new row if necessary.',
+    description:
+        'Displays a horizontal bar that wraps its children into a new row if necessary.',
     route: '/overflow_bar',
   ),
   WidgetBody(
@@ -721,17 +725,174 @@ final List<WidgetBody> widgets = [
   ),
   WidgetBody(
     title: 'Flutter PageView Widget',
-    description: 'Creates a scrollable list of pages that can be swiped horizontally.',
+    description:
+        'Creates a scrollable list of pages that can be swiped horizontally.',
     route: '/page_view',
   ),
   WidgetBody(
     title: 'Flutter PhysicalModel Widget',
-    description: 'Creates a widget with physical properties like elevation and shadow.',
+    description:
+        'Creates a widget with physical properties like elevation and shadow.',
     route: '/physical_model',
   ),
   WidgetBody(
     title: 'Flutter PhysicalShape Widget',
-    description: 'Creates a widget with a custom shape and physical properties.',
+    description:
+        'Creates a widget with a custom shape and physical properties.',
     route: '/physical_shape',
+  ),
+  WidgetBody(
+    title: 'Flutter PlaceHolder Widget',
+    description:
+        'Displays a box to represent where a widget will be added in the future.',
+    route: '/place_holder',
+  ),
+  WidgetBody(
+    title: 'Flutter PlatformMenuBar Widget',
+    description: 'Displays a platform-specific menu bar.',
+    route: '/platform_menu_bar',
+  ),
+  WidgetBody(
+    title: 'Flutter PopupMenuButton Widget',
+    description:
+        'Displays a menu when pressed, with a list of selectable options.',
+    route: '/popup_menu_button',
+  ),
+  WidgetBody(
+    title: 'Flutter Positioned Widget',
+    description: 'Positions a child widget within a Stack.',
+    route: '/positioned',
+  ),
+  WidgetBody(
+    title: 'Flutter PositionedTransition Widget',
+    description: 'Animates the position of a widget within a Stack.',
+    route: '/positioned_transition',
+  ),
+  WidgetBody(
+    title: 'Flutter PreferredSize Widget',
+    description: 'Defines a preferred size for a widget.',
+    route: '/preferred_size',
+  ),
+  WidgetBody(
+    title: 'Flutter Radio Widget',
+    description:
+        'Displays a radio button for selecting one option from a group.',
+    route: '/radio',
+  ),
+  WidgetBody(
+    title: 'Flutter RadioListTile Widget',
+    description: 'Combines a radio button with a list tile.',
+    route: '/radio_list_tile',
+  ),
+  WidgetBody(
+    title: 'Flutter RangeSlider Widget',
+    description: 'Displays a slider for selecting a range of values.',
+    route: '/range_slider',
+  ),
+  WidgetBody(
+    title: 'Flutter RawAutoComplete Widget',
+    description: 'Provides a customizable autocomplete widget.',
+    route: '/raw_auto_complete',
+  ),
+  WidgetBody(
+    title: 'Flutter RawChip Widget',
+    description: 'Displays a basic chip with customizable properties.',
+    route: '/raw_chip',
+  ),
+  WidgetBody(
+    title: 'Flutter RefreshIndicator Widget',
+    description: 'Displays a pull-to-refresh indicator.',
+    route: '/refresh_indicator',
+  ),
+  WidgetBody(
+    title: 'Flutter ReorderableListView Widget',
+    description:
+        'Creates a list view where items can be reordered by dragging.',
+    route: '/reorderable_list_view',
+  ),
+  WidgetBody(
+    title: 'Flutter RichText Widget',
+    description: 'Displays text with multiple styles.',
+    route: '/rich_text',
+  ),
+  WidgetBody(
+    title: 'Flutter RotatedBox Widget',
+    description: 'Rotates its child widget by a multiple of 90 degrees.',
+    route: '/rotated_box',
+  ),
+  WidgetBody(
+    title: 'Flutter RotationTransition Widget',
+    description: 'Animates the rotation of a widget.',
+    route: '/rotation_transition',
+  ),
+  WidgetBody(
+    title: 'Flutter Row Widget',
+    description: 'Aligns widgets horizontally in a row.',
+    route: '/row',
+  ),
+  WidgetBody(
+    title: 'Flutter SafeArea Widget',
+    description: 'Inserts padding to avoid system UI intrusions.',
+    route: '/safe_area',
+  ),
+  WidgetBody(
+    title: 'Flutter Scaffold Widget',
+    description: 'Provides a basic structure for a Material Design layout.',
+    route: '/scaffold',
+  ),
+  WidgetBody(
+    title: 'Flutter ScaleTransition Widget',
+    description: 'Animates the scale of a widget.',
+    route: '/scale_transition',
+  ),
+  WidgetBody(
+    title: 'Flutter Scrollbar Widget',
+    description: 'Displays a scrollbar for a scrollable widget.',
+    route: '/scrollbar',
+  ),
+  WidgetBody(
+    title: 'Flutter SelectableText Widget',
+    description: 'Displays text that can be selected and copied.',
+    route: '/selectable_text',
+  ),
+  WidgetBody(
+    title: 'Flutter Semantics Widget',
+    description: 'Provides semantic information for accessibility.',
+    route: '/semantics',
+  ),
+  WidgetBody(
+    title: 'Flutter ShaderMask Widget',
+    description: 'Applies a shader mask to its child widget.',
+    route: '/shader_mask',
+  ),
+  WidgetBody(
+    title: 'Flutter Shortcuts Widget',
+    description: 'Defines keyboard shortcuts and their actions.',
+    route: '/short_cuts',
+  ),
+  WidgetBody(
+    title: 'Flutter SimpleDialog Widget',
+    description: 'Displays a simple dialog with options.',
+    route: '/simple_dialog',
+  ),
+  WidgetBody(
+    title: 'Flutter SingleChildScrollView Widget',
+    description: 'Creates a scrollable container for a single child widget.',
+    route: '/single_child_scroll_view',
+  ),
+  WidgetBody(
+    title: 'Flutter SizedBox Widget',
+    description: 'Creates a box with a fixed size.',
+    route: '/sized_box',
+  ),
+  WidgetBody(
+    title: 'Flutter SizedOverflowBox Widget',
+    description: 'Allows a child widget to overflow its parent\'s constraints.',
+    route: '/sized_over_flow_box',
+  ),
+  WidgetBody(
+    title: 'Flutter SlideTransition Widget',
+    description: 'Animates the position of a widget as it slides in or out.',
+    route: '/slide_transition',
   ),
 ];

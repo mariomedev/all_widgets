@@ -575,5 +575,125 @@ final routes = GoRouter(
       path: '/physical_shape',
       builder: (context, state) => PhysicalShapeWidget(),
     ),
+    GoRoute(
+      path: '/place_holder',
+      builder: (context, state) => PlaceHolderWidget(),
+    ),
+    GoRoute(
+      path: '/platform_menu_bar',
+      builder: (context, state) => PlatformMenuBarWidget(),
+    ),
+    GoRoute(
+      path: '/popup_menu_button',
+      builder: (context, state) => PopupMenuButtonWidget(),
+    ),
+    GoRoute(
+      path: '/positioned',
+      builder: (context, state) => PositionedWidget(),
+    ),
+    GoRoute(
+      path: '/positioned_transition',
+      builder: (context, state) => PositionedTransitionWidget(),
+    ),
+    GoRoute(
+      path: '/preferred_size',
+      builder: (context, state) => PreferredSizeWidget(),
+    ),
+    GoRoute(
+      path: '/radio',
+      builder: (context, state) => RadioWidget(),
+    ),
+    GoRoute(
+      path: '/radio_list_tile',
+      builder: (context, state) => RadioListTileWidget(),
+    ),
+    GoRoute(
+      path: '/range_slider',
+      builder: (context, state) => RangeSliderWidget(),
+    ),
+    GoRoute(
+      path: '/raw_auto_complete',
+      builder: (context, state) => RawAutoCompleteWidget(),
+    ),
+    GoRoute(
+      path: '/raw_chip',
+      builder: (context, state) => RawChipWidget(),
+    ),
+    GoRoute(
+      path: '/refresh_indicator',
+      builder: (context, state) => RefreshIndicatorWidget(),
+    ),
+    GoRoute(
+      path: '/reorderable_list_view',
+      builder: (context, state) => ReorderableListViewWidget(),
+    ),
+    GoRoute(
+      path: '/rich_text',
+      builder: (context, state) => RichTextWidget(),
+    ),
+    GoRoute(
+      path: '/rotated_box',
+      builder: (context, state) => RotatedBoxWidget(),
+    ),
+    GoRoute(
+      path: '/rotation_transition',
+      builder: (context, state) => RotationTransitionWidget(),
+    ),
+    GoRoute(
+      path: '/row',
+      builder: (context, state) => RowWidget(),
+    ),
+    GoRoute(
+      path: '/safe_area',
+      builder: (context, state) => SafeAreaWidget(),
+    ),
+    GoRoute(
+      path: '/scaffold',
+      builder: (context, state) => ScaffoldWidget(),
+    ),
+    GoRoute(
+      path: '/scale_transition',
+      builder: (context, state) => ScaleTransitionWidget(),
+    ),
+    GoRoute(
+      path: '/scrollbar',
+      builder: (context, state) => ScrollbarWidget(),
+    ),
+    GoRoute(
+      path: '/selectable_text',
+      builder: (context, state) => SelectableTextWidget(),
+    ),
+    GoRoute(
+      path: '/semantics',
+      builder: (context, state) => SemanticsWidget(),
+    ),
+    GoRoute(
+      path: '/shader_mask',
+      builder: (context, state) => ShaderMaskWidget(),
+    ),
+    GoRoute(
+      path: '/short_cuts',
+      builder: (context, state) => ShortcutsWidget(),
+    ),
+    GoRoute(
+      path: '/simple_dialog',
+      builder: (context, state) => SimpleDialogWidget(),
+    ),
+    GoRoute(
+      path: '/single_child_scroll_view',
+      builder: (context, state) => SingleChildScrollViewWidget(),
+    ),
+    GoRoute(
+      path: '/sized_box',
+      builder: (context, state) => SizedBoxWidget(),
+    ),
+    GoRoute(
+      path: '/sized_over_flow_box',
+      builder: (context, state) => SizedOverflowBoxWidget(),
+    ),
+    GoRoute(
+      path: '/slidetransition',
+      builder: (context, state) => SlideTransitionWidget(),
+    ),
   ],
 );
