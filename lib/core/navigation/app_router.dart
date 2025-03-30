@@ -755,5 +755,81 @@ final routes = GoRouter(
       path: '/switch_list_tile',
       builder: (context, state) => SwitchListTileWidget(),
     ),
+    GoRoute(
+      path: '/system_mouse_cursors',
+      builder: (context, state) => SystemMouseCursorsWidget(),
+    ),
+    GoRoute(
+      path: '/tab_bar',
+      builder: (context, state) => TabBarWidget(),
+    ),
+    GoRoute(
+      path: '/table',
+      builder: (context, state) => TableWidget(),
+    ),
+    GoRoute(
+      path: '/tab_page_selector',
+      builder: (context, state) => TabPageSelectorWidget(),
+    ),
+    GoRoute(
+      path: '/text',
+      builder: (context, state) => TextWidget(),
+    ),
+    GoRoute(
+      path: '/text_button',
+      builder: (context, state) => TextButtonWidget(),
+    ),
+    GoRoute(
+      path: '/text_field',
+      builder: (context, state) => TextFieldWidget(),
+    ),
+    GoRoute(
+      path: '/text_form_field',
+      builder: (context, state) => TextFormFieldWidget(),
+    ),
+    GoRoute(
+      path: '/text_span',
+      builder: (context, state) => TextSpanWidget(),
+    ),
+    GoRoute(
+      path: '/theme_data',
+      builder: (context, state) => ThemeDataWidget(),
+    ),
+    GoRoute(
+      path: '/time_picker',
+      builder: (context, state) => TimePickerWidget(),
+    ),
+    GoRoute(
+      path: '/toggle_buttons',
+      builder: (context, state) => ToggleButtonsWidget(),
+    ),
+    GoRoute(
+      path: '/tool_tip',
+      builder: (context, state) => TooltipWidget(),
+    ),
+    GoRoute(
+      path: '/transform',
+      builder: (context, state) => TransformWidget(),
+    ),
+    GoRoute(
+      path: '/tween_animation_builder',
+      builder: (context, state) => TweenAnimationBuilderWidget(),
+    ),
+    GoRoute(
+      path: '/value_listenable_builder',
+      builder: (context, state) => ValueListenableBuilderWidget(),
+    ),
+    GoRoute(
+      path: '/vertical_divider',
+      builder: (context, state) => VerticalDividerWidget(),
+    ),
+    GoRoute(
+      path: '/visibility',
+      builder: (context, state) => VisibilityWidget(),
+    ),
+    GoRoute(
+      path: '/wrap',
+      builder: (context, state) => WrapWidget(),
+    ),
   ],
 );

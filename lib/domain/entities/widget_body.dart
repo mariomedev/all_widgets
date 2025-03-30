@@ -971,4 +971,104 @@ final List<WidgetBody> widgets = [
     description: 'Combines a switch with a list tile.',
     route: '/switch_list_tile',
   ),
+  WidgetBody(
+    title: 'Flutter SystemMouseCursors Widget',
+    description:
+        'Provides a set of predefined mouse cursors for different system interactions.',
+    route: '/system_mouse_cursors',
+  ),
+  WidgetBody(
+    title: 'Flutter TabBar Widget',
+    description: 'Displays a horizontal row of tabs for navigation.',
+    route: '/tab_bar',
+  ),
+  WidgetBody(
+    title: 'Flutter Table Widget',
+    description: 'Displays a table layout with rows and columns.',
+    route: '/table',
+  ),
+  WidgetBody(
+    title: 'Flutter TabPageSelector Widget',
+    description: 'Displays a page selector for navigating between tabs.',
+    route: '/tab_page_selector',
+  ),
+  WidgetBody(
+    title: 'Flutter Text Widget',
+    description: 'Displays a string of text with a single style.',
+    route: '/text',
+  ),
+  WidgetBody(
+    title: 'Flutter TextButton Widget',
+    description:
+        'Displays a button with text that responds to user interactions.',
+    route: '/text_button',
+  ),
+  WidgetBody(
+    title: 'Flutter TextField Widget',
+    description: 'Allows the user to input text.',
+    route: '/text_field',
+  ),
+  WidgetBody(
+    title: 'Flutter TextFormField Widget',
+    description: 'A FormField that contains a TextField for user input.',
+    route: '/text_form_field',
+  ),
+  WidgetBody(
+    title: 'Flutter TextSpan Widget',
+    description: 'Represents a span of text with a specific style.',
+    route: '/text_span',
+  ),
+  WidgetBody(
+    title: 'Flutter ThemeData Widget',
+    description: 'Defines the visual properties of a Material Design theme.',
+    route: '/theme_data',
+  ),
+  WidgetBody(
+    title: 'Flutter TimePicker Widget',
+    description: 'Displays a dialog for selecting a time.',
+    route: '/time_picker',
+  ),
+  WidgetBody(
+    title: 'Flutter ToggleButtons Widget',
+    description: 'Displays a set of buttons that can be toggled on or off.',
+    route: '/toggle_buttons',
+  ),
+  WidgetBody(
+    title: 'Flutter Tooltip Widget',
+    description:
+        'Displays a message when a widget is long-pressed or hovered over.',
+    route: '/tool_tip',
+  ),
+  WidgetBody(
+    title: 'Flutter Transform Widget',
+    description: 'Applies a transformation to its child widget.',
+    route: '/transform',
+  ),
+  WidgetBody(
+    title: 'Flutter TweenAnimationBuilder Widget',
+    description: 'Builds a widget with animation based on a tween.',
+    route: '/tween_animation_builder',
+  ),
+  WidgetBody(
+    title: 'Flutter ValueListenableBuilder Widget',
+    description:
+        'Rebuilds a widget in response to changes in a ValueListenable.',
+    route: '/value_listenable_builder',
+  ),
+  WidgetBody(
+    title: 'Flutter VerticalDivider Widget',
+    description: 'Displays a vertical dividing line.',
+    route: '/vertical_divider',
+  ),
+  WidgetBody(
+    title: 'Flutter Visibility Widget',
+    description: 'Controls the visibility of a child widget.',
+    route: '/visibility',
+  ),
+  WidgetBody(
+    title: 'Flutter Wrap Widget',
+    description:
+        'Displays its children in a horizontal or vertical wrap layout.',
+    route: '/wrap',
+  ),
 ];

@@ -207,3 +207,22 @@ flutter:
     - lib/presentation/widgets/streambuilder/
     - lib/presentation/widgets/switch/
     - lib/presentation/widgets/switchlisttile/
+    - lib/presentation/widgets/systemmousecursors/
+    - lib/presentation/widgets/tabbar/
+    - lib/presentation/widgets/table/
+    - lib/presentation/widgets/tabpageselector/
+    - lib/presentation/widgets/text/
+    - lib/presentation/widgets/textbutton/
+    - lib/presentation/widgets/textfield/
+    - lib/presentation/widgets/textformfield/
+    - lib/presentation/widgets/textspan/
+    - lib/presentation/widgets/themedata/
+    - lib/presentation/widgets/timepicker/
+    - lib/presentation/widgets/togglebuttons/
+    - lib/presentation/widgets/tooltip/
+    - lib/presentation/widgets/transform/
+    - lib/presentation/widgets/tweenanimationbuilder/
+    - lib/presentation/widgets/valuelistenablebuilder/
+    - lib/presentation/widgets/verticaldivider/
+    - lib/presentation/widgets/visibility/
+    - lib/presentation/widgets/wrap/
