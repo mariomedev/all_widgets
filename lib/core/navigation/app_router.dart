@@ -695,5 +695,65 @@ final routes = GoRouter(
       path: '/slidetransition',
       builder: (context, state) => SlideTransitionWidget(),
     ),
+    GoRoute(
+      path: '/slider',
+      builder: (context, state) => SliderWidget(),
+    ),
+    GoRoute(
+      path: '/sliver_app_bar',
+      builder: (context, state) => SliverAppBarWidget(),
+    ),
+    GoRoute(
+      path: '/sliver_fixed_extent_list',
+      builder: (context, state) => SliverFixedExtentListWidget(),
+    ),
+    GoRoute(
+      path: '/sliver_grid',
+      builder: (context, state) => SliverGridWidget(),
+    ),
+    GoRoute(
+      path: '/sliver_list',
+      builder: (context, state) => SliverListWidget(),
+    ),
+    GoRoute(
+      path: '/sliver_opacity',
+      builder: (context, state) => SliverOpacityWidget(),
+    ),
+    GoRoute(
+      path: '/sliver_padding',
+      builder: (context, state) => SliverPaddingWidget(),
+    ),
+    GoRoute(
+      path: '/sliver_to_box_adapter',
+      builder: (context, state) => SliverToBoxAdapterWidget(),
+    ),
+    GoRoute(
+      path: '/snack_bar',
+      builder: (context, state) => SnackBarWidget(),
+    ),
+    GoRoute(
+      path: '/spacer',
+      builder: (context, state) => SpacerWidget(),
+    ),
+    GoRoute(
+      path: '/stack',
+      builder: (context, state) => StackWidget(),
+    ),
+    GoRoute(
+      path: '/stepper',
+      builder: (context, state) => StepperWidget(),
+    ),
+    GoRoute(
+      path: '/stream_builder',
+      builder: (context, state) => StreamBuilderWidget(),
+    ),
+    GoRoute(
+      path: '/switch',
+      builder: (context, state) => SwitchWidget(),
+    ),
+    GoRoute(
+      path: '/switch_list_tile',
+      builder: (context, state) => SwitchListTileWidget(),
+    ),
   ],
 );

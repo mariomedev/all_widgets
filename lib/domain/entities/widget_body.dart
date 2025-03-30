@@ -895,4 +895,80 @@ final List<WidgetBody> widgets = [
     description: 'Animates the position of a widget as it slides in or out.',
     route: '/slide_transition',
   ),
+  WidgetBody(
+    title: 'Flutter Slider Widget',
+    description: 'Displays a slider for selecting a value from a range.',
+    route: '/slider',
+  ),
+  WidgetBody(
+    title: 'Flutter SliverAppBar Widget',
+    description:
+        'Creates a scrollable app bar that integrates with CustomScrollView.',
+    route: '/sliver_app_bar',
+  ),
+  WidgetBody(
+    title: 'Flutter SliverFixedExtentList Widget',
+    description: 'Displays a list with items of a fixed extent in a sliver.',
+    route: '/sliver_fixed_extent_list',
+  ),
+  WidgetBody(
+    title: 'Flutter SliverGrid Widget',
+    description: 'Displays a grid of widgets in a sliver.',
+    route: '/sliver_grid',
+  ),
+  WidgetBody(
+    title: 'Flutter SliverList Widget',
+    description: 'Displays a list of widgets in a sliver.',
+    route: '/sliver_list',
+  ),
+  WidgetBody(
+    title: 'Flutter SliverOpacity Widget',
+    description: 'Applies an opacity to its sliver child.',
+    route: '/sliver_opacity',
+  ),
+  WidgetBody(
+    title: 'Flutter SliverPadding Widget',
+    description: 'Applies padding to its sliver child.',
+    route: '/sliver_padding',
+  ),
+  WidgetBody(
+    title: 'Flutter SliverToBoxAdapter Widget',
+    description: 'Adapts a box widget to a sliver.',
+    route: '/sliver_to_box_adapter',
+  ),
+  WidgetBody(
+    title: 'Flutter SnackBar Widget',
+    description: 'Displays a brief message at the bottom of the screen.',
+    route: '/snack_bar',
+  ),
+  WidgetBody(
+    title: 'Flutter Spacer Widget',
+    description: 'Creates an adjustable empty space in a Flex container.',
+    route: '/spacer',
+  ),
+  WidgetBody(
+    title: 'Flutter Stack Widget',
+    description: 'Overlays widgets on top of each other.',
+    route: '/stack',
+  ),
+  WidgetBody(
+    title: 'Flutter Stepper Widget',
+    description: 'Displays a step-by-step progress interface.',
+    route: '/stepper',
+  ),
+  WidgetBody(
+    title: 'Flutter StreamBuilder Widget',
+    description: 'Builds widgets based on the latest snapshot of a Stream.',
+    route: '/stream_builder',
+  ),
+  WidgetBody(
+    title: 'Flutter Switch Widget',
+    description: 'Displays a toggle switch for on/off states.',
+    route: '/switch',
+  ),
+  WidgetBody(
+    title: 'Flutter SwitchListTile Widget',
+    description: 'Combines a switch with a list tile.',
+    route: '/switch_list_tile',
+  ),
 ];

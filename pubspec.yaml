@@ -192,3 +192,18 @@ flutter:
     - lib/presentation/widgets/sizedbox/
     - lib/presentation/widgets/sizedoverflowbox/
     - lib/presentation/widgets/slidetransition/
+    - lib/presentation/widgets/slider/
+    - lib/presentation/widgets/sliverappbar/
+    - lib/presentation/widgets/sliverfixedextentlist/
+    - lib/presentation/widgets/slivergrid/
+    - lib/presentation/widgets/sliverlist/
+    - lib/presentation/widgets/sliveropacity/
+    - lib/presentation/widgets/sliverpadding/
+    - lib/presentation/widgets/slivertoboxadapter/
+    - lib/presentation/widgets/snackbar/
+    - lib/presentation/widgets/spacer/
+    - lib/presentation/widgets/stack/
+    - lib/presentation/widgets/stepper/
+    - lib/presentation/widgets/streambuilder/
+    - lib/presentation/widgets/switch/
+    - lib/presentation/widgets/switchlisttile/
