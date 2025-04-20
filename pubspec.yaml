@@ -9,7 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_riverpod: ^2.6.1
   go_router: ^14.8.0
+  riverpod: ^2.6.1
   widget_with_codeview: ^3.1.0
 
 dev_dependencies:
@@ -19,7 +21,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  
+
   assets:
     - assets/img/
     - lib/presentation/widgets/aboutdialog/
@@ -42,24 +44,24 @@ flutter:
     - lib/presentation/widgets/animatedrotation/
     - lib/presentation/widgets/animatedsize/
     - lib/presentation/widgets/animatedswitcher/
-    - lib/presentation/widgets/appbar/ 
-    - lib/presentation/widgets/aspectratio/ 
-    - lib/presentation/widgets/autocomplete/ 
-    - lib/presentation/widgets/backdropfilter/ 
-    - lib/presentation/widgets/banner/ 
-    - lib/presentation/widgets/baseline/ 
-    - lib/presentation/widgets/blocksemantics/ 
-    - lib/presentation/widgets/bottomnavigationbar/ 
-    - lib/presentation/widgets/bottomsheet/ 
-    - lib/presentation/widgets/builder/ 
-    - lib/presentation/widgets/card/ 
-    - lib/presentation/widgets/center/ 
-    - lib/presentation/widgets/checkbox/ 
-    - lib/presentation/widgets/checkboxlisttile/ 
-    - lib/presentation/widgets/chip/ 
-    - lib/presentation/widgets/choicechip/ 
-    - lib/presentation/widgets/circleavatar/ 
-    - lib/presentation/widgets/circularprogressindicator/ 
+    - lib/presentation/widgets/appbar/
+    - lib/presentation/widgets/aspectratio/
+    - lib/presentation/widgets/autocomplete/
+    - lib/presentation/widgets/backdropfilter/
+    - lib/presentation/widgets/banner/
+    - lib/presentation/widgets/baseline/
+    - lib/presentation/widgets/blocksemantics/
+    - lib/presentation/widgets/bottomnavigationbar/
+    - lib/presentation/widgets/bottomsheet/
+    - lib/presentation/widgets/builder/
+    - lib/presentation/widgets/card/
+    - lib/presentation/widgets/center/
+    - lib/presentation/widgets/checkbox/
+    - lib/presentation/widgets/checkboxlisttile/
+    - lib/presentation/widgets/chip/
+    - lib/presentation/widgets/choicechip/
+    - lib/presentation/widgets/circleavatar/
+    - lib/presentation/widgets/circularprogressindicator/
     - lib/presentation/widgets/clipoval/
     - lib/presentation/widgets/clippath/
     - lib/presentation/widgets/cliprect/
