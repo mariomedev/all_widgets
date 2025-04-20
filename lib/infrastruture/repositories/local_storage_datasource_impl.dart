@@ -4,19 +4,15 @@ class LocalStorageDatasourceImpl extends LocalStoregeRepository {
   final LocalStoregeDatasource datasource;
 
   LocalStorageDatasourceImpl({required this.datasource});
-
+  
   @override
-  Future<void> chargeWidgets(List<WidgetBody> widgets) {
-    return datasource.chargeWidgets(widgets);
+  Future<List<WidgetBody>> getAllWidgets()  {
+    return  datasource.getAllWidgets();
+  }
+  
+  @override
+  Future<void> saveAllWidgets(List<WidgetBody> widgets) {
+    return datasource.saveAllWidgets(widgets);
   }
 
-  @override
-  Future<bool> isFavoriteWidget(String route) {
-    return datasource.isFavoriteWidget(route);
-  }
-
-  @override
-  Future<List<WidgetBody>> loadWigets() {
-    return datasource.loadWigets();
-  }
 }

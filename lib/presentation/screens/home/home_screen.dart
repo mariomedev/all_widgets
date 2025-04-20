@@ -1,4 +1,3 @@
-import 'package:all_widgets/presentation/screens/favorite/favorite_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'widgets/home_view.dart';
@@ -20,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
         title: Text('Widgets In Flutter'),
         centerTitle: true,
       ),
-      body: currentIndex == 0 ? HomeScreenView() : FavoriteScreen(),
+      body: currentIndex == 0 ? HomeScreenView() : Center(),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: currentIndex,
         onTap: (value) {
