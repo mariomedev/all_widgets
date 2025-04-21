@@ -14,5 +14,10 @@ class LocalStorageDatasourceImpl extends LocalStorageRepository {
   Future<void> saveAllWidgets(List<WidgetBody> widgets) {
     return datasource.saveAllWidgets(widgets);
   }
+  
+  @override
+  Future<WidgetBody> toggleFavoriteWidget(WidgetBody widgetBody) async  {
+    return await datasource.toggleFavoriteWidget(widgetBody);
+  }
 
 }

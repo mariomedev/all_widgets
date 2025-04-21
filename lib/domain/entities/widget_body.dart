@@ -8,7 +8,7 @@ class WidgetBody {
   final String title;
   final String description;
   final String route;
-  final bool isFavorite;
+  final bool   isFavorite;
 
   WidgetBody({
     required this.title,
@@ -16,4 +16,16 @@ class WidgetBody {
     required this.route,
     this.isFavorite = false,
   });
+
+  WidgetBody copyWith({
+    String? title,
+    String? description,
+    String? route,
+    bool? isFavorite,
+  }) => WidgetBody(
+    title: title ?? this.title,
+    description: description ?? this.description,
+    route: route ?? this.route,
+    isFavorite: isFavorite ?? this.isFavorite,
+  );
 }

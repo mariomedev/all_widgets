@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../domain/domain.dart';
+import '../../providers/providers.dart';
 
-class WidgetItem extends StatelessWidget {
+class WidgetItem extends ConsumerWidget {
   final WidgetBody widget;
 
   const WidgetItem({
@@ -12,7 +15,7 @@ class WidgetItem extends StatelessWidget {
   });
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
       child: Card(
@@ -32,7 +35,7 @@ class WidgetItem extends StatelessWidget {
           ),
           trailing: IconButton(
             onPressed: () {
-              
+              ref.read(widgetsProvider.notifier).toggleFavorite(widget);
             },
             icon: Icon(
                 widget.isFavorite ? Icons.favorite : Icons.favorite_border),

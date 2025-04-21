@@ -28,4 +28,18 @@ class WidgetsNotifier extends StateNotifier<List<WidgetBody>> {
     final widgets = await localStorageDatasource.getAllWidgets();
     state = widgets;
   }
+
+  Future<void> toggleFavorite(WidgetBody widgetBody) async {
+    final newWidget =
+        await localStorageDatasource.toggleFavoriteWidget(widgetBody);
+
+    final updatedWidgets = state.map((widget) {
+      if (widget.id == newWidget.id) {
+        return newWidget;
+      }
+      return widget;
+    }).toList();
+
+    state = updatedWidgets;
+  }
 }
