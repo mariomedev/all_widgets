@@ -9,7 +9,7 @@ final routes = GoRouter(
   routes: [
     GoRoute(
       path: '/',
-      builder: (context, state) => HomeScreen(),
+      builder: (context, state) => WidgetTree(),
     ),
     GoRoute(
       path: '/about_dialog',

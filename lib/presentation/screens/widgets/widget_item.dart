@@ -30,6 +30,14 @@ class WidgetItem extends StatelessWidget {
           leading: FlutterLogo(
             size: 56.0,
           ),
+          trailing: IconButton(
+            onPressed: () {
+              
+            },
+            icon: Icon(
+                widget.isFavorite ? Icons.favorite : Icons.favorite_border),
+            color: widget.isFavorite ? Colors.red : null,
+          ),
         ),
       ),
     );

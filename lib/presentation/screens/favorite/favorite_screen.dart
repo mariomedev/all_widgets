@@ -6,16 +6,16 @@ import '../../../domain/domain.dart';
 import '../../providers/providers.dart';
 import '../widgets/widgets.dart';
 
-class HomeScreen extends ConsumerStatefulWidget {
-  const HomeScreen({
+class FavoriteScreen extends ConsumerStatefulWidget {
+  const FavoriteScreen({
     super.key,
   });
 
   @override
-  ConsumerState<HomeScreen> createState() => _HomeScreenViewState();
+  ConsumerState<FavoriteScreen> createState() => _FavoriteScreenState();
 }
 
-class _HomeScreenViewState extends ConsumerState<HomeScreen> {
+class _FavoriteScreenState extends ConsumerState<FavoriteScreen> {
   @override
   void initState() {
     ref.read(widgetsProvider.notifier).getWidgets();
@@ -24,7 +24,11 @@ class _HomeScreenViewState extends ConsumerState<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final List<WidgetBody> widgetList = ref.watch(widgetsProvider);
+    final List<WidgetBody> widgetList =
+        ref.watch(widgetsProvider).where((element) {
+      return element.isFavorite == true;
+    }).toList();
+
     return ListView.builder(
       itemCount: widgetList.length,
       itemBuilder: (context, index) {
