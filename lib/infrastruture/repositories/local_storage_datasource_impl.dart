@@ -1,7 +1,7 @@
 import '../../domain/domain.dart';
 
-class LocalStorageDatasourceImpl extends LocalStoregeRepository {
-  final LocalStoregeDatasource datasource;
+class LocalStorageDatasourceImpl extends LocalStorageRepository {
+  final LocalStorageDatasource datasource;
 
   LocalStorageDatasourceImpl({required this.datasource});
   

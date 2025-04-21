@@ -1,13 +1,43 @@
+import 'package:isar/isar.dart';
+import 'package:path_provider/path_provider.dart';
+
 import '../../domain/domain.dart';
 
-class IsarDatasourceImpl extends LocalStoregeDatasource {
-  @override
-  Future<List<WidgetBody>> getAllWidgets() {
-    throw UnimplementedError();
+class IsarDatasourceImpl extends LocalStorageDatasource {
+  late final Future<Isar> db;
+
+  IsarDatasourceImpl() {
+    db = openIsar();
+  }
+
+  Future<Isar> openIsar() async {
+    final dir = await getApplicationCacheDirectory();
+    if (Isar.instanceNames.isEmpty) {
+      return await Isar.open(
+        [
+          WidgetBodySchema,
+        ],
+        directory: dir.path,
+        inspector: true,
+      );
+    }
+    return Future.value(Isar.getInstance());
   }
 
   @override
-  Future<void> saveAllWidgets(List<WidgetBody> widgets) {
-    throw UnimplementedError();
+  Future<void> saveAllWidgets(List<WidgetBody> widgets) async {
+    final isar = await db;
+    final existingWidgets = await isar.widgetBodys.where().findAll();
+    if(existingWidgets.isNotEmpty) return;
+    // Check if the widgets already exist in the database
+    await isar.writeTxn(() async {
+      await isar.widgetBodys.putAll(widgets);
+    });
+  }
+
+  @override
+  Future<List<WidgetBody>> getAllWidgets() async {
+    final isar = await db;
+    return isar.widgetBodys.where().findAll();
   }
 }
