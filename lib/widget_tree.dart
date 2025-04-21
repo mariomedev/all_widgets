@@ -13,6 +13,7 @@ class WidgetTree extends ConsumerStatefulWidget {
 }
 
 class _WidgetTreeState extends ConsumerState<WidgetTree> {
+  PageController pageController = PageController();
   @override
   void initState() {
     ref.read(widgetsProvider.notifier).addWidget(
@@ -30,11 +31,22 @@ class _WidgetTreeState extends ConsumerState<WidgetTree> {
         title: Text('Widgets In Flutter'),
         centerTitle: true,
       ),
-      body: currentIndex == 0 ? HomeScreen() : FavoriteScreen(),
+      body: PageView(
+        controller: pageController,
+        onPageChanged: (value) {
+          currentIndex = value;
+          setState(() {});
+        },
+        children: [
+          HomeScreen(),
+          FavoriteScreen(),
+        ],
+      ),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: currentIndex,
         onTap: (value) {
           currentIndex = value;
+          pageController.jumpToPage(value);
           setState(() {});
         },
         items: [

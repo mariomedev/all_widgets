@@ -15,15 +15,19 @@ class HomeScreen extends ConsumerStatefulWidget {
   ConsumerState<HomeScreen> createState() => _HomeScreenViewState();
 }
 
-class _HomeScreenViewState extends ConsumerState<HomeScreen> {
+class _HomeScreenViewState extends ConsumerState<HomeScreen>
+    with AutomaticKeepAliveClientMixin {
   @override
   void initState() {
     ref.read(widgetsProvider.notifier).getWidgets();
     super.initState();
   }
+  @override
+  bool get wantKeepAlive => true;
 
   @override
   Widget build(BuildContext context) {
+    super.build(context);
     final List<WidgetBody> widgetList = ref.watch(widgetsProvider);
     return ListView.builder(
       itemCount: widgetList.length,
@@ -33,4 +37,5 @@ class _HomeScreenViewState extends ConsumerState<HomeScreen> {
       },
     );
   }
+
 }
