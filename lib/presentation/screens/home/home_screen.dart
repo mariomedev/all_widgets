@@ -22,6 +22,7 @@ class _HomeScreenViewState extends ConsumerState<HomeScreen>
     ref.read(widgetsProvider.notifier).getWidgets();
     super.initState();
   }
+
   @override
   bool get wantKeepAlive => true;
 
@@ -37,5 +38,4 @@ class _HomeScreenViewState extends ConsumerState<HomeScreen>
       },
     );
   }
-
 }

@@ -226,10 +226,10 @@ packages:
     dependency: transitive
     description:
       name: float_column
-      sha256: "4da6247177d39c77cabaae536babf25c15e9fc574530aaba94a73ad9017341e0"
+      sha256: bea361af964bfa379713e775def742c6187ce58b607bdd91ded1ea24ce42b400
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.8"
+    version: "2.1.7"
   flutter:
     dependency: "direct main"
     description: flutter

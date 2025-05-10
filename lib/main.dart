@@ -4,8 +4,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'core/core.dart';
 
 void main() {
-  runApp(ProviderScope(
-    child: const MainApp(),
+  runApp(const ProviderScope(
+    child: MainApp(),
   ));
 }
 

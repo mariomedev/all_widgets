@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:isar/isar.dart';
 import 'package:path_provider/path_provider.dart';
 
@@ -9,7 +11,6 @@ class IsarDatasourceImpl extends LocalStorageDatasource {
   IsarDatasourceImpl() {
     db = openIsar();
   }
-
   Future<Isar> openIsar() async {
     final dir = await getApplicationCacheDirectory();
     if (Isar.instanceNames.isEmpty) {
@@ -55,6 +56,23 @@ class IsarDatasourceImpl extends LocalStorageDatasource {
     }
     await Future.delayed(const Duration(milliseconds: 100));
 
-    return await isar.widgetBodys.get(widgetBody.id) ?? widgetBody; // Return the updated widget or the original if not found
+    return await isar.widgetBodys.get(widgetBody.id) ??
+        widgetBody; // Return the updated widget or the original if not found
+  }
+
+  @override
+  Future<List<WidgetBody>> searchWidgets(String query) async {
+    final isar = await db;
+    late List<WidgetBody> data;
+    if (query.isEmpty) {
+      data = await getAllWidgets();
+    }
+    data = await isar.widgetBodys
+        .filter()
+        .titleContains(query, caseSensitive: false)
+        .or()
+        .descriptionContains(query, caseSensitive: false)
+        .findAll();
+    return data;
   }
 }

@@ -22,10 +22,16 @@ class WidgetsNotifier extends StateNotifier<List<WidgetBody>> {
 
   Future<void> addWidget(List<WidgetBody> widgets) async {
     await localStorageDatasource.saveAllWidgets(widgets);
+    getWidgets();
   }
 
   Future<void> getWidgets() async {
     final widgets = await localStorageDatasource.getAllWidgets();
+    state = widgets;
+  }
+
+  Future<void> search(String value) async {
+    final widgets = await localStorageDatasource.searchWidgets(value);
     state = widgets;
   }
 

@@ -30,7 +30,7 @@ class WidgetItem extends ConsumerWidget {
           onTap: () {
             context.push(widget.route);
           },
-          leading: FlutterLogo(
+          leading: const FlutterLogo(
             size: 56.0,
           ),
           trailing: IconButton(
